@@ -1,0 +1,20 @@
+{
+  "dataVariationFileInfo": [
+    {
+      "filePath": ".variations\\testdata_SearchBy.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\testdata_ProductSelection-ACA.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\testdata_ProductSelection-FiberOptic.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\testdata_ProductSelection-ManualInput.json",
+      "dataVariationType": "File"
+    }
+  ]
+}

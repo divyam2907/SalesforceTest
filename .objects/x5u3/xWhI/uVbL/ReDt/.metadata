@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Fiber optic Cable'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ReDt-pIU8kq9eRCBTN-Rmg",
+  "Reference": "REE1xoNDp0Oy0C5vcjoU6A/ReDt-pIU8kq9eRCBTN-Rmg",
+  "ParentRef": "REE1xoNDp0Oy0C5vcjoU6A/uVbLfuDy6kCmA_WIe4xH8w",
+  "Created": "2024-07-10T10:11:39.5391828Z",
+  "Updated": "2024-07-10T10:11:39.5391828Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

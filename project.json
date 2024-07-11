@@ -1,0 +1,109 @@
+{
+  "name": "AFLSalesforceTesting",
+  "projectId": "1999503d-9f41-4cac-8bcb-909ab1296172",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.4]",
+    "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.Testing.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities": "[24.10.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9a53f969-82db-4d17-96bf-cbde3ed12c07",
+        "dataVariationFilePath": ".variations\\testdata_ProductSelection-ACA.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TestCase_AddProductUsingACAFilter.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6221efdf-77bd-4e87-8873-1b9a4f5eb924",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TestCase_1_CreateNewCPQQuote.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1552ac6a-940a-4c88-a695-bea3ee6a9ae9",
+        "dataVariationFilePath": ".variations\\testdata_ProductSelection-FiberOptic.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TestCase_AddProductUsingFiberOpticFilter.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d40e73d4-f7f1-4293-8943-85b682c2ceac",
+        "dataVariationFilePath": ".variations\\testdata_ProductSelection-ManualInput.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TestCase_AddProductUsingManualInput.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "299340fe-8d5c-47bb-8cc8-b8aa4ecc07f9",
+        "dataVariationFilePath": ".variations\\testdata_SearchBy.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TestCase_AddProductUsingSearchBy.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ef1c0ec1-8754-4813-a538-ecc2a123ee2b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TestCase_CloseSFTest.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "92c207e3-c67b-4183-ba24-93c5b9c67b3e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Lightning Experience  Salesforce",
+  "Type": "App",
+  "Id": "x5u34uSD8E2RyVhSw5ezcw",
+  "Reference": "REE1xoNDp0Oy0C5vcjoU6A/x5u34uSD8E2RyVhSw5ezcw",
+  "Created": "2024-07-10T10:11:39.0962795Z",
+  "Updated": "2024-07-10T10:11:39.0962795Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
