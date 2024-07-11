@@ -31,7 +31,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1568,17403</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1568,17614</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCase_AddProductUsingFiberOpticFilter_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -147,7 +147,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="TestCase_AddProductUsingFiberOpticFilter" sap:VirtualizedContainerService.HintSize="1578,17338" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestCase_AddProductUsingFiberOpticFilter" sap:VirtualizedContainerService.HintSize="1578,17509" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ActualOutput" />
       <Variable x:TypeArguments="x:Boolean" Name="BusinessException" />
@@ -165,25 +165,25 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Add Product Using Optic Fiber Testcase execution started&quot;]" />
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1516,16106" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1516,16277" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="1454,15995" sap2010:WorkflowViewState.IdRef="Sequence_11">
+      <Sequence sap:VirtualizedContainerService.HintSize="1454,16166" sap2010:WorkflowViewState.IdRef="Sequence_11">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Lightning Experience  Salesforce" sap:VirtualizedContainerService.HintSize="1392,15884" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V2">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Lightning Experience  Salesforce" sap:VirtualizedContainerService.HintSize="1392,16055" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V2">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1358,15666" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1358,15797" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="sd:DataTable" Name="CapturedTableData" />
                   <Variable x:TypeArguments="x:Int32" Name="RetryCounter" />
@@ -201,10 +201,10 @@
                     <InArgument x:TypeArguments="x:Int32">1</InArgument>
                   </Assign.Value>
                 </Assign>
-                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1296,14014" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1296,14145" sap2010:WorkflowViewState.IdRef="RetryScope_1">
                   <ui:RetryScope.ActivityBody>
                     <ActivityAction>
-                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1254,13837" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1254,13968" sap2010:WorkflowViewState.IdRef="Sequence_16">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -289,7 +289,7 @@
                             <InArgument x:TypeArguments="x:Int32">[RetryCounter+1]</InArgument>
                           </Assign.Value>
                         </Assign>
-                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1192,12961" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1192,13092" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -297,7 +297,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <TryCatch.Try>
-                            <Sequence sap:VirtualizedContainerService.HintSize="1154,11953" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <Sequence sap:VirtualizedContainerService.HintSize="1154,12084" sap2010:WorkflowViewState.IdRef="Sequence_14">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -386,7 +386,7 @@
                                 </uix:NClick>
                                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_12" Message="[&quot;Clicked on add filtered&quot;]" />
                               </Sequence>
-                              <Sequence sap:VirtualizedContainerService.HintSize="1092,3955" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <Sequence sap:VirtualizedContainerService.HintSize="1092,4086" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -628,6 +628,7 @@
                                   </uix:NClick.VerifyOptions>
                                 </uix:NClick>
                                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="536,145" sap2010:WorkflowViewState.IdRef="LogMessage_13" Message="[&quot;Clicked filter&quot;]" />
+                                <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="536,91" sap2010:WorkflowViewState.IdRef="Delay_8" />
                                 <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="536,959" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -976,7 +977,7 @@
                             <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1158,693" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
@@ -1055,7 +1056,7 @@
                     <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="456,697" sap2010:WorkflowViewState.IdRef="Catch`1_3">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
