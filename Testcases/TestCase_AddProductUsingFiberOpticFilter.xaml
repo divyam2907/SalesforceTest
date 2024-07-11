@@ -31,7 +31,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1588.6666666666665,13450.666666666664</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1568,17403</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCase_AddProductUsingFiberOpticFilter_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -139,6 +139,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -146,7 +147,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="TestCase_AddProductUsingFiberOpticFilter" sap:VirtualizedContainerService.HintSize="1598.6666666666667,13386" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestCase_AddProductUsingFiberOpticFilter" sap:VirtualizedContainerService.HintSize="1578,17338" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ActualOutput" />
       <Variable x:TypeArguments="x:Boolean" Name="BusinessException" />
@@ -156,33 +157,33 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1536.6666666666667,286" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1516,254" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Add Product Using Optic Fiber Testcase execution started&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Add Product Using Optic Fiber Testcase execution started&quot;]" />
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1536.6666666666667,12226.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1516,16106" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="1474.6666666666667,12106.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
+      <Sequence sap:VirtualizedContainerService.HintSize="1454,15995" sap2010:WorkflowViewState.IdRef="Sequence_11">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Lightning Experience  Salesforce" sap:VirtualizedContainerService.HintSize="1412.6666666666667,11996" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V2">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Lightning Experience  Salesforce" sap:VirtualizedContainerService.HintSize="1392,15884" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V2">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1378.6666666666667,11754.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1358,15666" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="sd:DataTable" Name="CapturedTableData" />
                   <Variable x:TypeArguments="x:Int32" Name="RetryCounter" />
@@ -192,7 +193,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="1316.6666666666667,116.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_1">
+                <Assign sap:VirtualizedContainerService.HintSize="1296,83" sap2010:WorkflowViewState.IdRef="Assign_1">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
                   </Assign.To>
@@ -200,18 +201,18 @@
                     <InArgument x:TypeArguments="x:Int32">1</InArgument>
                   </Assign.Value>
                 </Assign>
-                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1316.6666666666667,11076.666666666666" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1296,14014" sap2010:WorkflowViewState.IdRef="RetryScope_1">
                   <ui:RetryScope.ActivityBody>
                     <ActivityAction>
-                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1274.6666666666667,10867.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1254,13837" sap2010:WorkflowViewState.IdRef="Sequence_16">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1212.6666666666667,178" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Retry Count: &quot;+RetryCounter.ToString]" />
-                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="1212.6666666666667,252" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(f5)][u(hk)]" Version="V3">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1192,145" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Retry Count: &quot;+RetryCounter.ToString]" />
+                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="1192,193" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(f5)][u(hk)]" Version="V3">
                           <uix:NKeyboardShortcuts.VerifyOptions>
                             <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                               <uix:VerifyExecutionOptions.Retry>
@@ -223,8 +224,8 @@
                             </uix:VerifyExecutionOptions>
                           </uix:NKeyboardShortcuts.VerifyOptions>
                         </uix:NKeyboardShortcuts>
-                        <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="1212.6666666666667,123.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_6" />
-                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1212.6666666666667,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                        <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="1192,91" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1192,53" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                           <ui:CommentOut.Body>
                             <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,808" sap2010:WorkflowViewState.IdRef="Sequence_25">
                               <sap:WorkflowViewStateService.ViewState>
@@ -280,7 +281,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </ui:CommentOut>
-                        <Assign sap:VirtualizedContainerService.HintSize="1212.6666666666667,116.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_3">
+                        <Assign sap:VirtualizedContainerService.HintSize="1192,83" sap2010:WorkflowViewState.IdRef="Assign_3">
                           <Assign.To>
                             <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
                           </Assign.To>
@@ -288,7 +289,7 @@
                             <InArgument x:TypeArguments="x:Int32">[RetryCounter+1]</InArgument>
                           </Assign.Value>
                         </Assign>
-                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1212.6666666666667,10052" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1192,12961" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -296,21 +297,21 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <TryCatch.Try>
-                            <Sequence sap:VirtualizedContainerService.HintSize="1174,9048.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <Sequence sap:VirtualizedContainerService.HintSize="1154,11953" sap2010:WorkflowViewState.IdRef="Sequence_14">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence sap:VirtualizedContainerService.HintSize="1112,1022.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <Sequence sap:VirtualizedContainerService.HintSize="1092,1381" sap2010:WorkflowViewState.IdRef="Sequence_7">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Product Selection'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Product Selection'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZ0JFQVUiLCJjb21lRnJvbVBTIjoidHJ1ZSJ9LCJzdGF0ZSI6e319" CVScreenId="cde0978c-de22-4a9a-b368-7f23584c23bf" CvElementArea="83, 660, 181, 52" CvTextArea="108, 676, 130, 18" CvTextArgument="Product Selection" CvType="Button" DesignTimeRectangle="85, 662, 178, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='BUTTON' type='button' class='slds-button slds-button_outline-brand' aaname='Product Selection' check:innerText='Product Selection' /&gt;" Guid="52a9fafc-e0ab-4ae3-965b-cb8bda82f9b4" InformativeScreenshot="642adb2e0e2f35b3e347bba7d5fae707.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -328,7 +329,7 @@
                                     </uix:VerifyExecutionOptions>
                                   </uix:NClick.VerifyOptions>
                                 </uix:NClick>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fiber optic Cable'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fiber optic Cable'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="5382fd98-5ca1-4e39-b118-c535f362f455" ContentHash="M5wIvCZp50KQf9rORwbpfw" CvTextArea="430, 792, 150, 19" CvTextArgument="Fiber Optic Cable" CvType="Text" DesignTimeRectangle="406, 772, 199, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Fiber Optic Cable' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Fiber Optic Cable' tag='A' type='' class='slds-tabs_scoped__link' check:innerText='Fiber Optic Cable' /&gt;" Guid="d4d45138-26c2-401b-a8fe-6b22c2cba53a" InformativeScreenshot="99b85958491d012fe758829208ed0830.png" Reference="REE1xoNDp0Oy0C5vcjoU6A/ReDt-pIU8kq9eRCBTN-Rmg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -343,7 +344,8 @@
                                     </uix:VerifyExecutionOptions>
                                   </uix:NClick.VerifyOptions>
                                 </uix:NClick>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ADSS Cable'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;Clicked on Product Selection and chose FiberOptic Filter&quot;]" />
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ADSS Cable'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="2c922cc4-b1db-477c-b17d-3673bd2d489c" CvElementArea="485, 856, 36, 36" CvType="ArrowButton" DesignTimeRectangle="496, 824, 18, 18" DesignTimeScaleFactor="1.5" ElementType="Icon" FullSelectorArgument="[string.Format(&quot;&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Select a Product ADSS Cable Loose Tube Cable Premise Cable SkyWrap Cable Wrapping Tube Cable' tag='TABLE' /&gt;&lt;webctrl tag='svg' rowName='*{0}*' /&gt;&quot;, SelectProduct)]" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Select a Product ADSS Cable Loose Tube Cable Premise Cable SkyWrap Cable Wrapping Tube Cable' tag='TABLE' /&gt;&lt;webctrl tag='svg' rowName='ADSS Cable' type='' class='slds-button__icon' aaname='' /&gt;" Guid="6cc5bf1d-dd30-4da0-a024-777523d47478" InformativeScreenshot="c6261565a63a0424fd3d555bff0c3242.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -364,7 +366,7 @@
                                     </uix:VerifyExecutionOptions>
                                   </uix:NClick.VerifyOptions>
                                 </uix:NClick>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Filtered'" sap:VirtualizedContainerService.HintSize="388,218.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Filtered'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="cdf9517e-459a-4e13-a829-26f04ca7a6bb" CvTextArea="391, 969, 100, 18" CvTextArgument="Add Filtered" CvType="Text" DesignTimeRectangle="11, 192, 0, 0" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='slds-truncate' tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='slds-truncate' type='' tag='SPAN' aaname='Add Filtered' check:innerText='Add Filtered' /&gt;" Guid="ce38802b-fd43-4e84-b49a-71b07a880059" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -382,15 +384,16 @@
                                     </uix:VerifyExecutionOptions>
                                   </uix:NClick.VerifyOptions>
                                 </uix:NClick>
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_12" Message="[&quot;Clicked on add filtered&quot;]" />
                               </Sequence>
-                              <Sequence sap:VirtualizedContainerService.HintSize="1112,3732" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <Sequence sap:VirtualizedContainerService.HintSize="1092,3955" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[ProductType]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,158" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[ProductType]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NSelectItem.Items>
                                     <scg:List x:TypeArguments="x:String" Capacity="9">
                                       <x:String>AFL-ADSS</x:String>
@@ -414,7 +417,7 @@
                                     </uix:TargetAnchorable>
                                   </uix:NSelectItem.Target>
                                 </uix:NSelectItem>
-                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="[FiberCount]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,158" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="[FiberCount]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NSelectItem.Items>
                                     <scg:List x:TypeArguments="x:String" Capacity="16">
                                       <x:String>--None--</x:String>
@@ -445,7 +448,7 @@
                                     </uix:TargetAnchorable>
                                   </uix:NSelectItem.Target>
                                 </uix:NSelectItem>
-                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[FiberType]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,158" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[FiberType]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NSelectItem.Items>
                                     <scg:List x:TypeArguments="x:String" Capacity="8">
                                       <x:String>--None--</x:String>
@@ -468,7 +471,7 @@
                                     </uix:TargetAnchorable>
                                   </uix:NSelectItem.Target>
                                 </uix:NSelectItem>
-                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[JacketConfig]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,158" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[JacketConfig]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NSelectItem.Items>
                                     <scg:List x:TypeArguments="x:String" Capacity="3">
                                       <x:String>--None--</x:String>
@@ -486,7 +489,7 @@
                                     </uix:TargetAnchorable>
                                   </uix:NSelectItem.Target>
                                 </uix:NSelectItem>
-                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,190.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="[JacketPrint]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NSelectItem DisplayName="Select Item 'Select an Option'" sap:VirtualizedContainerService.HintSize="536,158" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="[JacketPrint]" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NSelectItem.Items>
                                     <scg:List x:TypeArguments="x:String" Capacity="4">
                                       <x:String>--None--</x:String>
@@ -505,7 +508,7 @@
                                     </uix:TargetAnchorable>
                                   </uix:NSelectItem.Target>
                                 </uix:NSelectItem>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Max Span at Light'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="536,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Text="[MaxSpanAtLight]" Version="V3">
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Max Span at Light'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="536,256" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Text="[MaxSpanAtLight]" Version="V3">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="943404d0-7dba-429e-b24a-75c38a419b40" CvElementArea="684, 715, 271, 54" CvType="InputBox" DesignTimeRectangle="688, 719, 265, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='INPUT' type='text' class='slds-input' aaname='Max Span at Light' /&gt;" Guid="d9fabd70-494b-45ec-8065-4435e5e857a9" InformativeScreenshot="5607d6b8f0c103d5dacf9ea5eb047055.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -526,7 +529,7 @@
                                     </uix:VerifyExecutionTypeIntoOptions>
                                   </uix:NTypeInto.VerifyOptions>
                                 </uix:NTypeInto>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Max Span at Medium'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="536,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Text="[MaxSpanAtMedium]" Version="V3">
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Max Span at Medium'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="536,256" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Text="[MaxSpanAtMedium]" Version="V3">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="496a79e8-8b35-47ff-903e-1b0cc1407e12" CvElementArea="961, 715, 271, 54" CvType="InputBox" DesignTimeRectangle="965, 719, 265, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Max Span at Medium' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Max Span at Medium' tag='INPUT' type='text' class='slds-input' /&gt;" Guid="f60339e5-d8ca-4f28-8e57-56d1347c910b" InformativeScreenshot="e76d4494fee423169bbeee5760ba38cf.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -547,7 +550,7 @@
                                     </uix:VerifyExecutionTypeIntoOptions>
                                   </uix:NTypeInto.VerifyOptions>
                                 </uix:NTypeInto>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Max Span at Heavy'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="536,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Text="[MaxSpanAtHeavy]" Version="V3">
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Max Span at Heavy'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="536,256" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Text="[MaxSpanAtHeavy]" Version="V3">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="3e905d4b-a8bd-4ffc-829a-afb4cd36a8cf" CvElementArea="1238, 715, 271, 54" CvType="InputBox" DesignTimeRectangle="1242, 719, 265, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Max Span at Heavy' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Max Span at Heavy' tag='INPUT' type='text' class='slds-input' /&gt;" Guid="90c7735f-c534-45f6-9a38-1e0c3a4cef72" InformativeScreenshot="e626676c54539b54b63e1f82b4d400e2.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -568,15 +571,15 @@
                                     </uix:VerifyExecutionTypeIntoOptions>
                                   </uix:NTypeInto.VerifyOptions>
                                 </uix:NTypeInto>
-                                <If Condition="[Convert.ToBoolean(CInt(inFeet))]" sap:VirtualizedContainerService.HintSize="536,582" sap2010:WorkflowViewState.IdRef="If_1">
+                                <If Condition="[Convert.ToBoolean(CInt(inFeet))]" sap:VirtualizedContainerService.HintSize="536,547" sap2010:WorkflowViewState.IdRef="If_1">
                                   <If.Then>
-                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,306.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="376,283" sap2010:WorkflowViewState.IdRef="Sequence_12">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'In Feet'" sap:VirtualizedContainerService.HintSize="354,218.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'In Feet'" sap:VirtualizedContainerService.HintSize="334,195" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="185bbfa4-15a5-48ca-b75d-d6d720d80343" CvElementArea="1515, 720, 30, 29" CvType="CheckBox" DesignTimeRectangle="1519, 724, 24, 24" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl class='slds-checkbox_faux' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl class='slds-checkbox_faux' tag='SPAN' type='' aaname='' check:text='unchecked' /&gt;" Guid="34e6be63-6298-4f17-94dd-5629e65ff162" InformativeScreenshot="84a45d955a0618445a4fcc0dc5b542bb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                             <uix:TargetAnchorable.Anchors>
@@ -600,7 +603,7 @@
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
-                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,104" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="300,81" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -609,7 +612,7 @@
                                     </Sequence>
                                   </If.Else>
                                 </If>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filter'" sap:VirtualizedContainerService.HintSize="536,228" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filter'" sap:VirtualizedContainerService.HintSize="536,195" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="cc07127b-c387-4f64-b58b-538960bcbb42" CvElementArea="821, 817, 98, 52" CvTextArea="847, 834, 45, 18" CvTextArgument="Filter" CvType="Button" DesignTimeRectangle="825, 821, 92, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Filter' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Filter' tag='BUTTON' type='button' class='slds-button slds-button_brand' check:innerText='Filter' /&gt;" Guid="653f1ec9-08e0-481f-a9d6-d3c437172e0d" InformativeScreenshot="ec883a104971af8a93a17743f0ddaf7e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -624,7 +627,8 @@
                                     </uix:VerifyExecutionOptions>
                                   </uix:NClick.VerifyOptions>
                                 </uix:NClick>
-                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="536,980.6666666666666" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="536,145" sap2010:WorkflowViewState.IdRef="LogMessage_13" Message="[&quot;Clicked filter&quot;]" />
+                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="536,959" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -632,7 +636,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <TryCatch.Try>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'R3i375WZT63'" sap:VirtualizedContainerService.HintSize="334,196" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'R3i375WZT63'" sap:VirtualizedContainerService.HintSize="334,195" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="457ca12c-59f5-4825-81d7-94708d2eeea6" CvElementArea="180, 622, 30, 30" CvType="CheckBox" DesignTimeRectangle="0, 0, 0, 0" DesignTimeScaleFactor="1.5" FullSelectorArgument="[string.Format(&quot;&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Choose a RowSelect All Product NameShow Product Name column actions Product TypeShow Product Type column actions Fiber Count Fiber Type Jacket Configuration Jacket Print Max Span at Light Max Span at Medium Max Span at Heavy Stock AE0729O621EB5 AE0729W621EB1 AE0729O621BB1 AE0729W621BA7 AE0729O621BD6 AE0729W621BC9' tag='TABLE' /&gt;&lt;webctrl class='slds-checkbox_faux' tag='SPAN' rowName='*{0}*' /&gt;&quot;, Product_Name)]" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Choose a RowSelect All Product NameShow Product Name column actions Product TypeShow Product Type column actions Fiber Count Fiber Type Jacket Configuration Jacket Print Max Span at Light Max Span at Medium Max Span at Heavy Stock AE0729O621EB5 AE0729W621EB1 AE0729O621BB1 AE0729W621BA7 AE0729O621BD6 AE0729W621BC9' tag='TABLE' /&gt;&lt;webctrl class='slds-checkbox_faux' tag='SPAN' rowName='AE0729O621EB5' type='' aaname='' check:text='unchecked' /&gt;" Guid="15eaf180-8803-4414-982d-c0ef7b7d62a9" InformativeScreenshot="ae8317b287a5e0ac9760a357fa0270fd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                                       </uix:NClick.Target>
@@ -649,10 +653,10 @@
                                     </uix:NClick>
                                   </TryCatch.Try>
                                   <TryCatch.Catches>
-                                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="502,444.6666666666667" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="502,449" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
@@ -660,7 +664,7 @@
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                         </ActivityAction.Argument>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="496,373.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="496,379" sap2010:WorkflowViewState.IdRef="Sequence_6">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="ProductName" />
                                           </Sequence.Variables>
@@ -669,8 +673,8 @@
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,178" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;Specified Product Name: &quot;+Product_Name+&quot; not found for the current filters&quot;]" />
-                                          <Assign sap:VirtualizedContainerService.HintSize="434,107.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,145" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;Specified Product Name: &quot;+Product_Name+&quot; not found for the current filters&quot;]" />
+                                          <Assign sap:VirtualizedContainerService.HintSize="434,83" sap2010:WorkflowViewState.IdRef="Assign_4">
                                             <Assign.To>
                                               <OutArgument x:TypeArguments="x:Boolean">[BusinessException]</OutArgument>
                                             </Assign.To>
@@ -684,7 +688,7 @@
                                   </TryCatch.Catches>
                                 </TryCatch>
                               </Sequence>
-                              <If Condition="[BusinessException]" sap:VirtualizedContainerService.HintSize="1112,4206" sap2010:WorkflowViewState.IdRef="If_4">
+                              <If Condition="[BusinessException]" sap:VirtualizedContainerService.HintSize="1092,6426" sap2010:WorkflowViewState.IdRef="If_4">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -692,13 +696,13 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <If.Then>
-                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,534.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="376,518" sap2010:WorkflowViewState.IdRef="Sequence_21">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="354,228" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="334,195" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="759276f9-9930-49cb-b0e0-963a5278565c" CvElementArea="1359, 952, 112, 52" CvTextArea="1386, 967, 58, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1363, 954, 107, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Close' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Close' tag='BUTTON' type='button' class='slds-button slds-button_text-destructive' check:innerText='Cancel' /&gt;" Guid="f030b3dc-1c4c-4a13-a3e2-a52f4ebb8e63" InformativeScreenshot="54a7345f7e6ae71b75676033b8a86b09.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                       </uix:NClick.Target>
@@ -713,7 +717,7 @@
                                         </uix:VerifyExecutionOptions>
                                       </uix:NClick.VerifyOptions>
                                     </uix:NClick>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="354,218.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="334,195" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="d643bd35-db88-47e8-b727-4c1a45853d5c" CvElementArea="648, 793, 145, 53" CvTextArea="708, 810, 58, 18" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="652, 796, 140, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Cancel' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='slds-button slds-button_destructive' check:innerText='Cancel' /&gt;" Guid="b76f01bd-0f0c-4b95-bd5c-573389307a57" InformativeScreenshot="ce6b9a850066618f77fd8f067cf01aeb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                       </uix:NClick.Target>
@@ -731,21 +735,21 @@
                                   </Sequence>
                                 </If.Then>
                                 <If.Else>
-                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1078,3509.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1058,5725" sap2010:WorkflowViewState.IdRef="Sequence_22">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="1016,1022.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="1016,1751" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add &amp; Review'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add &amp; Review'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="41074929-24b3-45fa-a63e-459ecfc082d3" CvElementArea="1589, 951, 174, 52" CvTextArea="1612, 967, 127, 19" CvTextArgument="Add &amp; Review" CvType="Button" DesignTimeRectangle="1592, 954, 171, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Add &amp;amp; Review' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Add &amp;amp; Review' tag='BUTTON' type='button' class='slds-button slds-button_brand' check:innerText='Add &amp;amp; Review' /&gt;" Guid="336234c7-8d12-45f6-aff9-486c7a71a67f" InformativeScreenshot="895d0b9e015eec02b975fbc198202b32.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                         </uix:NClick.Target>
@@ -763,7 +767,8 @@
                                           </uix:VerifyExecutionOptions>
                                         </uix:NClick.VerifyOptions>
                                       </uix:NClick>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save &amp; Exit'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Clicked on Add and Review&quot;]" />
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save &amp; Exit'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="4f93b0f5-336e-416a-9423-9c7190589849" CvElementArea="1613, 950, 151, 53" CvTextArea="1639, 967, 99, 19" CvTextArgument="Save &amp; Exit" CvType="Button" DesignTimeRectangle="1617, 954, 146, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='SaveExit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='SaveExit' tag='BUTTON' type='button' class='slds-button slds-button_brand' check:innerText='Save &amp;amp; Exit' /&gt;" Guid="144ac21a-b61d-4082-955e-3756bbecdf38" InformativeScreenshot="088709afedd4908c8bb295f4f97f4de5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                         </uix:NClick.Target>
@@ -778,7 +783,8 @@
                                           </uix:VerifyExecutionOptions>
                                         </uix:NClick.VerifyOptions>
                                       </uix:NClick>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Done'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[&quot;Clicked on Save and Exit&quot;]" />
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Done'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="90533efb-37c4-4016-b6a0-3b1b1603597a" CvElementArea="1664, 964, 100, 51" CvTextArea="1689, 979, 49, 19" CvTextArgument="Done" CvType="Button" DesignTimeRectangle="1667, 966, 96, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Close' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Close' tag='BUTTON' type='button' class='slds-button slds-button_brand' check:innerText='Done' /&gt;" Guid="fc505441-21ce-44be-b2ad-9c0534e2f94d" InformativeScreenshot="1e5f8b3caa81a8cc330d6fec27a28bd9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                         </uix:NClick.Target>
@@ -796,7 +802,8 @@
                                           </uix:VerifyExecutionOptions>
                                         </uix:NClick.VerifyOptions>
                                       </uix:NClick>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save &amp; Exit'" sap:VirtualizedContainerService.HintSize="388,218.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_16" Message="[&quot;Clicked Done&quot;]" />
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save &amp; Exit'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="83fdc101-3d90-4fef-8c97-3ce679f7ec54" CvElementArea="446, 659, 182, 52" CvTextArea="504, 675, 100, 19" CvTextArgument="Save &amp; Exit" CvType="Button" DesignTimeRectangle="449, 662, 179, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='BUTTON' type='button' class='slds-button slds-button_brand' aaname='Save &amp;amp; Exit' check:innerText='Save &amp;amp; Exit' /&gt;" Guid="ce9f77f6-bc82-47fe-b57a-161bd98c0e8a" InformativeScreenshot="41b4c645cc0e6e964aba48f8b2e93edc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                         </uix:NClick.Target>
@@ -814,16 +821,20 @@
                                           </uix:VerifyExecutionOptions>
                                         </uix:NClick.VerifyOptions>
                                       </uix:NClick>
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_17" Message="[&quot;Clicked on Save and Exit on Product Selection Screen&quot;]" />
                                     </Sequence>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="1016,2398.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="1016,3846" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                      <Sequence.Variables>
+                                        <Variable x:TypeArguments="x:Int32" Name="rowIndex" />
+                                      </Sequence.Variables>
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="954,123.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate'" sap:VirtualizedContainerService.HintSize="954,228" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="954,91" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate'" sap:VirtualizedContainerService.HintSize="954,195" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZWpFQUUiLCJjb21lRnJvbVBTIjoiZmFsc2UifSwic3RhdGUiOnt9fQ%3D%3D" CVScreenId="2c8358cd-cd86-458e-8e7f-34ccfe72788c" CvElementArea="1623, 407, 81, 35" CvTextArea="1640, 419, 47, 11" CvTextArgument="Calculate" CvType="Button" DesignTimeRectangle="1625, 409, 78, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl aaname='Calculate' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl aaname='Calculate' tag='BUTTON' type='button' class='slds-button slds-button_brand' check:innerText='Calculate' /&gt;" Guid="08bfa16d-8f9f-4494-8f30-207f4dce4ee4" InformativeScreenshot="2bfa6d5abdfa63dae3471926b7b73a10.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                         </uix:NClick.Target>
@@ -838,17 +849,18 @@
                                           </uix:VerifyExecutionOptions>
                                         </uix:NClick.VerifyOptions>
                                       </uix:NClick>
-                                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="954,123.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                                      <uix:NCheckState sap2010:Annotation.AnnotationText="Handling &quot;An Unexpected component error occured&quot;, occuring sometimes" DisplayName="Check App State 'A Component'" sap:VirtualizedContainerService.HintSize="954,1124" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,145" sap2010:WorkflowViewState.IdRef="LogMessage_18" Message="[&quot;Clicked Calculate&quot;]" />
+                                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="954,91" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                                      <uix:NCheckState sap2010:Annotation.AnnotationText="Handling &quot;An Unexpected component error occured&quot;, occuring sometimes" DisplayName="Check App State 'A Component'" sap:VirtualizedContainerService.HintSize="954,1111" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NCheckState.IfExists>
-                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,841.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,861" sap2010:WorkflowViewState.IdRef="Sequence_26">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,178" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;A Componenet Error Has Occured - Popup&quot;]" />
-                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;A Componenet Error Has Occured - Popup&quot;]" />
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                               <uix:NClick.Target>
                                                 <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZ0JFQVUiLCJjb21lRnJvbVBTIjoidHJ1ZSJ9LCJzdGF0ZSI6e319" CVScreenId="7c859d51-a666-4877-8e20-f1597df38d18" CvElementArea="1424, 249, 29, 29" CvType="CloseButton" DesignTimeRectangle="1429, 252, 21, 21" DesignTimeScaleFactor="1.5" ElementType="Icon" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceIcon/auraIf/lightningIcon' tag='LIGHTNING-ICON' /&gt;&lt;webctrl tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceIcon/auraIf/lightningIcon' tag='LIGHTNING-ICON' /&gt;&lt;webctrl tag='svg' type='' class='slds-icon slds-icon_xx-small' aaname='' /&gt;" Guid="6105b9a0-2191-4d45-93fc-646d937a56cf" InformativeScreenshot="7800018e82bdb8e4bf59db15531134e2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                               </uix:NClick.Target>
@@ -863,7 +875,7 @@
                                                 </uix:VerifyExecutionOptions>
                                               </uix:NClick.VerifyOptions>
                                             </uix:NClick>
-                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate'" sap:VirtualizedContainerService.HintSize="388,195" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                               <uix:NClick.Target>
                                                 <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZWpFQUUiLCJjb21lRnJvbVBTIjoiZmFsc2UifSwic3RhdGUiOnt9fQ%3D%3D" CVScreenId="2c8358cd-cd86-458e-8e7f-34ccfe72788c" CvElementArea="1623, 407, 81, 35" CvTextArea="1640, 419, 47, 11" CvTextArgument="Calculate" CvType="Button" DesignTimeRectangle="1625, 409, 78, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl aaname='Calculate' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl aaname='Calculate' tag='BUTTON' type='button' class='slds-button slds-button_brand' check:innerText='Calculate' /&gt;" Guid="08bfa16d-8f9f-4494-8f30-207f4dce4ee4" InformativeScreenshot="2bfa6d5abdfa63dae3471926b7b73a10.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete" />
                                               </uix:NClick.Target>
@@ -878,11 +890,11 @@
                                                 </uix:VerifyExecutionOptions>
                                               </uix:NClick.VerifyOptions>
                                             </uix:NClick>
-                                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="388,116.66666666666667" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="Delay_7" />
                                           </Sequence>
                                         </uix:NCheckState.IfExists>
                                         <uix:NCheckState.IfNotExists>
-                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,106.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,106" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -899,17 +911,61 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </uix:NCheckState>
-                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,178" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Extracting Table Data&quot;]" />
-                                      <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[CapturedTableData]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-0' ReferenceIdx='0' Name='Column-0' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='unchecked' ReferenceIdx='1' Name='unchecked' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-2' ReferenceIdx='2' Name='Column-2' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Product' ReferenceIdx='3' Name='Product'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Description' ReferenceIdx='4' Name='Description'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Quantity' ReferenceIdx='5' Name='Quantity'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='UOM' ReferenceIdx='6' Name='UOM'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Length' ReferenceIdx='7' Name='Length'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Length UOM' ReferenceIdx='8' Name='Length UOM'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Discount (%)' ReferenceIdx='9' Name='Discount (%)'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Net Unit Price' ReferenceIdx='10' Name='Net Unit Price'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Total' ReferenceIdx='11' Name='Total'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Quoted Lead Time' ReferenceIdx='12' Name='Quoted Lead Time'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='NSP' ReferenceIdx='13' Name='NSP' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Tiers' ReferenceIdx='14' Name='Tiers' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Line Notes' ReferenceIdx='15' Name='Line Notes' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-16' ReferenceIdx='16' Name='Column-16' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Column-0' attr='fulltext' /&gt;&lt;column name='unchecked' attr='fulltext' /&gt;&lt;column name='Column-2' attr='fulltext' /&gt;&lt;column name='Product' attr='fulltext' /&gt;&lt;column name='Description' attr='fulltext' /&gt;&lt;column name='Quantity' attr='fulltext' /&gt;&lt;column name='UOM' attr='fulltext' /&gt;&lt;column name='Length' attr='fulltext' /&gt;&lt;column name='Length UOM' attr='fulltext' /&gt;&lt;column name='Discount (%)' attr='fulltext' /&gt;&lt;column name='Net Unit Price' attr='fulltext' /&gt;&lt;column name='Total' attr='fulltext' /&gt;&lt;column name='Quoted Lead Time' attr='fulltext' /&gt;&lt;column name='NSP' attr='fulltext' /&gt;&lt;column name='Tiers' attr='fulltext' /&gt;&lt;column name='Line Notes' attr='fulltext' /&gt;&lt;column name='Column-16' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="954,191.33333333333334" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,145" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Extracting Table Data&quot;]" />
+                                      <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[CapturedTableData]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-0' ReferenceIdx='0' Name='Column-0' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='unchecked' ReferenceIdx='1' Name='unchecked' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-2' ReferenceIdx='2' Name='Column-2' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Product' ReferenceIdx='3' Name='Product'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Description' ReferenceIdx='4' Name='Description'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Quantity' ReferenceIdx='5' Name='Quantity'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='UOM' ReferenceIdx='6' Name='UOM'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Length' ReferenceIdx='7' Name='Length'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Length UOM' ReferenceIdx='8' Name='Length UOM'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Discount (%)' ReferenceIdx='9' Name='Discount (%)'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Net Unit Price' ReferenceIdx='10' Name='Net Unit Price'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Total' ReferenceIdx='11' Name='Total'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Quoted Lead Time' ReferenceIdx='12' Name='Quoted Lead Time'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='NSP' ReferenceIdx='13' Name='NSP' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Tiers' ReferenceIdx='14' Name='Tiers' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Line Notes' ReferenceIdx='15' Name='Line Notes' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-16' ReferenceIdx='16' Name='Column-16' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Column-0' attr='fulltext' /&gt;&lt;column name='unchecked' attr='fulltext' /&gt;&lt;column name='Column-2' attr='fulltext' /&gt;&lt;column name='Product' attr='fulltext' /&gt;&lt;column name='Description' attr='fulltext' /&gt;&lt;column name='Quantity' attr='fulltext' /&gt;&lt;column name='UOM' attr='fulltext' /&gt;&lt;column name='Length' attr='fulltext' /&gt;&lt;column name='Length UOM' attr='fulltext' /&gt;&lt;column name='Discount (%)' attr='fulltext' /&gt;&lt;column name='Net Unit Price' attr='fulltext' /&gt;&lt;column name='Total' attr='fulltext' /&gt;&lt;column name='Quoted Lead Time' attr='fulltext' /&gt;&lt;column name='NSP' attr='fulltext' /&gt;&lt;column name='Tiers' attr='fulltext' /&gt;&lt;column name='Line Notes' attr='fulltext' /&gt;&lt;column name='Column-16' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="954,158" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NExtractData.Target>
                                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZWpFQUUiLCJjb21lRnJvbVBTIjoiZmFsc2UifSwic3RhdGUiOnt9fQ%3D%3D" DesignTimeRectangle="54, 849, 1764, 107" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='TABLE' /&gt;" Guid="86f68bff-9977-40ce-b9aa-fac606ba98dd" InformativeScreenshot="a98d1ee176e0b5b63df5e657bfa79cea.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                                         </uix:NExtractData.Target>
                                       </uix:NExtractData>
-                                      <ui:LookupDataTable LookupColumnIndex="{x:Null}" LookupDataColumn="{x:Null}" RowIndex="{x:Null}" TargetColumnIndex="{x:Null}" TargetDataColumn="{x:Null}" DataTable="[CapturedTableData]" DisplayName="Lookup Data Table" sap:VirtualizedContainerService.HintSize="954,320" sap2010:WorkflowViewState.IdRef="LookupDataTable_1" LookupColumnName="Product" LookupValue="[Product_Name]" TargetColumnName="Net Unit Price">
+                                      <ui:LookupDataTable LookupColumnIndex="{x:Null}" LookupDataColumn="{x:Null}" TargetColumnIndex="{x:Null}" TargetDataColumn="{x:Null}" DataTable="[CapturedTableData]" DisplayName="Lookup Data Table" sap:VirtualizedContainerService.HintSize="954,297" sap2010:WorkflowViewState.IdRef="LookupDataTable_1" LookupColumnName="Product" LookupValue="[Product_Name]" RowIndex="[rowIndex]" TargetColumnName="Net Unit Price">
                                         <ui:LookupDataTable.CellValue>
                                           <OutArgument x:TypeArguments="x:String">[ActualOutput]</OutArgument>
                                         </ui:LookupDataTable.CellValue>
                                       </ui:LookupDataTable>
+                                      <If Condition="[rowIndex.ToString IsNot Nothing]" sap:VirtualizedContainerService.HintSize="954,780" sap2010:WorkflowViewState.IdRef="If_6">
+                                        <If.Then>
+                                          <Sequence sap:VirtualizedContainerService.HintSize="376,233" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;Extracted Product row&quot;+String.Join(&quot;, &quot;,CapturedTableData(rowIndex).itemArray)]" />
+                                          </Sequence>
+                                        </If.Then>
+                                        <If.Else>
+                                          <Sequence sap:VirtualizedContainerService.HintSize="376,364" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Error" Message="[&quot;Extraction failed as no row for specified product name&quot;]" />
+                                            <Throw Exception="[new Exception(&quot;Extraction failed as no row for specified product name&quot;)]" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="Throw_3" />
+                                          </Sequence>
+                                        </If.Else>
+                                      </If>
+                                      <If Condition="[ActualOutput.Equals(&quot;&quot;)]" sap:VirtualizedContainerService.HintSize="954,362" sap2010:WorkflowViewState.IdRef="If_7">
+                                        <If.Then>
+                                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="376,179" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <Throw Exception="[new Exception(&quot;Table not extracted properly&quot;)]" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="Throw_4" />
+                                          </Sequence>
+                                        </If.Then>
+                                        <If.Else>
+                                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="300,81" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </If.Else>
+                                      </If>
                                     </Sequence>
                                   </Sequence>
                                 </If.Else>
@@ -917,10 +973,10 @@
                             </Sequence>
                           </TryCatch.Try>
                           <TryCatch.Catches>
-                            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1178.6666666666667,663.3333333333334" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1158,693" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
@@ -928,44 +984,31 @@
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                 </ActivityAction.Argument>
-                                <Sequence sap:VirtualizedContainerService.HintSize="416,592" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                <Sequence sap:VirtualizedContainerService.HintSize="450,623" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                  <Sequence.Variables>
+                                    <Variable x:TypeArguments="ui:Image" Name="exceptionScreenshot" />
+                                  </Sequence.Variables>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="354,228" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="759276f9-9930-49cb-b0e0-963a5278565c" CvElementArea="1359, 952, 112, 52" CvTextArea="1386, 967, 58, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1363, 954, 107, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Close' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Close' tag='BUTTON' type='button' class='slds-button slds-button_text-destructive' check:innerText='Cancel' /&gt;" Guid="f030b3dc-1c4c-4a13-a3e2-a52f4ebb8e63" InformativeScreenshot="54a7345f7e6ae71b75676033b8a86b09.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                                    </uix:NClick.Target>
-                                    <uix:NClick.VerifyOptions>
-                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionOptions.Retry>
-                                        <uix:VerifyExecutionOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionOptions.Timeout>
-                                      </uix:VerifyExecutionOptions>
-                                    </uix:NClick.VerifyOptions>
-                                  </uix:NClick>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="354,228" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="d643bd35-db88-47e8-b727-4c1a45853d5c" CvElementArea="648, 793, 145, 53" CvTextArea="708, 810, 58, 18" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="652, 796, 140, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Cancel' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='slds-button slds-button_destructive' check:innerText='Cancel' /&gt;" Guid="b76f01bd-0f0c-4b95-bd5c-573389307a57" InformativeScreenshot="ce6b9a850066618f77fd8f067cf01aeb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                                    </uix:NClick.Target>
-                                    <uix:NClick.VerifyOptions>
-                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionOptions.Retry>
-                                        <uix:VerifyExecutionOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionOptions.Timeout>
-                                      </uix:VerifyExecutionOptions>
-                                    </uix:NClick.VerifyOptions>
-                                  </uix:NClick>
-                                  <Rethrow sap:VirtualizedContainerService.HintSize="354,48" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Error" Message="[&quot;Exception Occured with message: &quot;+exception.Message+&quot; at: &quot;+exception.Source]" />
+                                  <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="388,87" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[exceptionScreenshot]">
+                                    <ui:TakeScreenshot.Target>
+                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="bc54510f-6798-4cd6-b6ab-7083fe43727e">
+                                        <ui:Target.TimeoutMS>
+                                          <InArgument x:TypeArguments="x:Int32" />
+                                        </ui:Target.TimeoutMS>
+                                        <ui:Target.WaitForReady>
+                                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                                        </ui:Target.WaitForReady>
+                                      </ui:Target>
+                                    </ui:TakeScreenshot.Target>
+                                  </ui:TakeScreenshot>
+                                  <ui:SaveImage DisplayName="Save Image" FileName="[&quot;\\naa\dfs\SPB\Teams\RPA\Salesforce Testing\Exception Screenshots\AddProductFiberOpticFilter_&quot;+DateTime.Now.ToString(&quot;ddMMyyyyhhmmss&quot;)+&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[exceptionScreenshot]" />
+                                  <Rethrow sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="Rethrow_2" />
                                 </Sequence>
                               </ActivityAction>
                             </Catch>
@@ -984,27 +1027,71 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:RetryScope>
-                <If Condition="[BusinessException]" sap:VirtualizedContainerService.HintSize="1316.6666666666667,470.6666666666667" sap2010:WorkflowViewState.IdRef="If_5">
-                  <If.Then>
-                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,202" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1296,1374" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                  <TryCatch.Try>
+                    <If Condition="[BusinessException]" sap:VirtualizedContainerService.HintSize="410,362" sap2010:WorkflowViewState.IdRef="If_5">
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="376,179" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Throw Exception="[new BusinessRuleException(&quot;Specified Product Name: &quot;+Product_Name+&quot; not found for the current filters&quot;)]" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="300,81" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </TryCatch.Try>
+                  <TryCatch.Catches>
+                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="456,697" sap2010:WorkflowViewState.IdRef="Catch`1_3">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Throw Exception="[new BusinessRuleException(&quot;Specified Product Name: &quot;+Product_Name+&quot; not found for the current filters&quot;)]" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="Throw_2" />
-                    </Sequence>
-                  </If.Then>
-                  <If.Else>
-                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,104" sap2010:WorkflowViewState.IdRef="Sequence_24">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </Sequence>
-                  </If.Else>
-                </If>
+                      <ActivityAction x:TypeArguments="s:Exception">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                        </ActivityAction.Argument>
+                        <Sequence sap:VirtualizedContainerService.HintSize="450,627" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="ui:Image" Name="exceptionScreenshot" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Error" Message="[&quot;Exception Occured with message: &quot;+exception.Message+&quot; at: &quot;+exception.Source]" />
+                          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="388,87" sap2010:WorkflowViewState.IdRef="TakeScreenshot_2" Screenshot="[exceptionScreenshot]">
+                            <ui:TakeScreenshot.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="bc54510f-6798-4cd6-b6ab-7083fe43727e">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:TakeScreenshot.Target>
+                          </ui:TakeScreenshot>
+                          <ui:SaveImage DisplayName="Save Image" FileName="[&quot;\\naa\dfs\SPB\Teams\RPA\Salesforce Testing\Exception Screenshots\AddProductFiberOpticFilter_&quot;+DateTime.Now.ToString(&quot;ddMMyyyyhhmmss&quot;)+&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[exceptionScreenshot]" />
+                          <Rethrow sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="Rethrow_3" />
+                        </Sequence>
+                      </ActivityAction>
+                    </Catch>
+                  </TryCatch.Catches>
+                </TryCatch>
               </Sequence>
             </ActivityAction>
           </uix:NApplicationCard.Body>
@@ -1014,7 +1101,7 @@
         </uix:NApplicationCard>
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="1536.6666666666667,785.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="1516,787" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Double" Name="ActualOutputDbl" />
         <Variable x:TypeArguments="x:Double" Name="ExpectedOutputDbl" />
@@ -1024,7 +1111,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.6666666666667,210" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,179" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
         <ui:MultipleAssign.AssignOperations>
           <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -1054,9 +1141,9 @@
           </scg:List>
         </ui:MultipleAssign.AssignOperations>
       </ui:MultipleAssign>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478.6666666666667,175.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Actual Output: &quot;+ActualOutputDbl.ToString + environment.NewLine + &quot;Expected Output: &quot;+ExpectedOutputDbl.ToString]" />
-      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[ExpectedOutputDbl.Equals(ActualOutputDbl)]" sap:VirtualizedContainerService.HintSize="478.6666666666667,123.33333333333333" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478.6666666666667,166" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Add Product Using Optic Fiber Testcase execution ended&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,143" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Actual Output: &quot;+ActualOutputDbl.ToString + environment.NewLine + &quot;Expected Output: &quot;+ExpectedOutputDbl.ToString]" />
+      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[ExpectedOutputDbl.Equals(ActualOutputDbl)]" sap:VirtualizedContainerService.HintSize="479,91" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,143" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Add Product Using Optic Fiber Testcase execution ended&quot;]" />
     </Sequence>
   </Sequence>
 </Activity>

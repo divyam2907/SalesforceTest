@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase_CreateNewCPQQuote" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1056,8592.666666666666" sap2010:WorkflowViewState.IdRef="TestCase_CreateNewCPQQuote_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase_CreateNewCPQQuote" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1192,2285" sap2010:WorkflowViewState.IdRef="TestCase_CreateNewCPQQuote_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -43,6 +43,7 @@
       <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
       <x:String>System.Linq.Expressions</x:String>
       <x:String>System.Numerics</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -104,6 +105,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -111,7 +113,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="TestCase_CreateNewCPQQuote" sap:VirtualizedContainerService.HintSize="836,8528" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestCase_CreateNewCPQQuote" sap:VirtualizedContainerService.HintSize="676,2220" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="QuoteNumber" />
       <Variable x:TypeArguments="x:String" Name="OutputLabel" />
@@ -121,304 +123,416 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="774,287.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="614,252" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Create New CPQ Quote Testcase execution started&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Create New CPQ Quote Testcase execution started&quot;]" />
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="774,7574" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="614,1214" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="712,7454" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence sap:VirtualizedContainerService.HintSize="552,1103" sap2010:WorkflowViewState.IdRef="Sequence_5">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Home | Salesforce" sap:VirtualizedContainerService.HintSize="650,7343.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V2" WindowResize="Maximize">
-          <uix:NApplicationCard.Body>
-            <ActivityAction x:TypeArguments="x:Object">
-              <ActivityAction.Argument>
-                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-              </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,7101.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
-                <Sequence.Variables>
-                  <Variable x:TypeArguments="x:Int32" Name="RetryCounter" />
-                </Sequence.Variables>
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <Sequence sap:VirtualizedContainerService.HintSize="554,1645.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_8">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Launched Oracle Application...&quot;]" />
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search...'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="TEST Account" Version="V3">
-                    <uix:NTypeInto.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/page/home" CVScreenId="85f66b8f-bc2b-43e1-a912-ddb66462bb62" CvTextArea="685, 276, 73, 18" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="631, 261, 600, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='slds-button slds-button_neutral search-button slds-truncate' aaname='Search...' check:innerText='Search...' /&gt;" Guid="c9ffdf03-43bf-4982-9849-b7cb1deb2ede" InformativeScreenshot="9ca553fee38b5703748804b878296741.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                    </uix:NTypeInto.Target>
-                  </uix:NTypeInto>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TEST AccountAccount'" sap:VirtualizedContainerService.HintSize="388,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/page/home" DesignTimeRectangle="332, 519, 574, 63" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/auraIf/auraIf/forceSearchDesktopHeaderManager/forceSearchAssistant:searchAssistant/forceSearchAssistantDialogContainer:assistantDialogContainer/forceSearchAssistantDialog:assistantDialog/search_dialogInstantResultsList:suggestionsList' tag='SEARCH_DIALOG-INSTANT-RESULTS-LIST' /&gt;&lt;webctrl aria-labelledby='suggestion-tooltip-label-165 separator-label-165 secondary-label-165 separator-label-165 record-preview-move-to-label-165' aria-role='option' tag='DIV' innertext='TEST AccountAccount' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/auraIf/auraIf/forceSearchDesktopHeaderManager/forceSearchAssistant:searchAssistant/forceSearchAssistantDialogContainer:assistantDialogContainer/forceSearchAssistantDialog:assistantDialog/search_dialogInstantResultsList:suggestionsList' tag='SEARCH_DIALOG-INSTANT-RESULTS-LIST' /&gt;&lt;webctrl aria-labelledby='suggestion-tooltip-label-165 separator-label-165 secondary-label-165 separator-label-165 record-preview-move-to-label-165' aria-role='option' tag='DIV' innertext='TEST AccountAccount' type='' class='slds-text-link--reset slds-grid slds-grid--vertical-align-center slds-truncate instant-result-item slds-p-left_small two-fields instant-result-item-record-suggestion' aaname='' check:text='TEST AccountAccount' /&gt;" Guid="d4447506-6cb6-4fec-8e10-604f7c063790" InformativeScreenshot="e9313d3c43455e3349d618e5bec8a2c5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="Element 'TEST Account'" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Target>
-                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="c2b888ed-8b13-4d20-ba5a-0da5e2f5d2d2" CvTextArea="117, 444, 177, 24" CvTextArgument="TEST Account" CvType="Text" DesignTimeRectangle="120, 437, 173, 36" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' type='' class='' aaname='TEST Account' check:innerText='TEST Account' /&gt;" Guid="46b9bf43-39fd-4240-8d49-5852b736d528" InformativeScreenshot="07bc367ab40226bd22427c2865a27af5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                        </uix:VerifyExecutionOptions.Target>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Opportunities'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="c2b888ed-8b13-4d20-ba5a-0da5e2f5d2d2" CvTextArea="522, 667, 148, 27" CvTextArgument="Opportunities" CvType="Text" DesignTimeRectangle="524, 647, 147, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Opportunities' aria-role='tab' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Opportunities' aria-role='tab' tag='A' type='' class='slds-tabs_default__link' check:innerText='Opportunities' /&gt;" Guid="578dec3c-bb3a-4bb9-8742-95b9e9177940" InformativeScreenshot="5864b1fb7765f3655fbf9f2be2a2aa12.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="Label 'Recent Opportunities'" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Target>
-                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="01e45bd0-1bf3-4e36-a6ad-0c6004b2d1c3" CvTextArea="106, 693, 243, 27" CvTextArgument="Recent Opportunities" CvType="Text" DesignTimeRectangle="108, 687, 241, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/auraHtml' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/auraHtml' tag='STRONG' type='' class='' aaname='Recent Opportunities' check:innerText='Recent Opportunities' /&gt;" Guid="2b1eb978-1111-4007-9243-c92e5db8ce93" InformativeScreenshot="6357f294c47411dec128e3dbd7b35715.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                        </uix:VerifyExecutionOptions.Target>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="01e45bd0-1bf3-4e36-a6ad-0c6004b2d1c3" CvElementArea="1216, 686, 36, 36" CvType="ArrowButton" DesignTimeRectangle="1226, 697, 18, 18" DesignTimeScaleFactor="1.5" ElementType="Icon" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningPrimitiveIcon' tag='LIGHTNING-PRIMITIVE-ICON' /&gt;&lt;webctrl tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningPrimitiveIcon' tag='LIGHTNING-PRIMITIVE-ICON' /&gt;&lt;webctrl tag='svg' type='' class='slds-button__icon' aaname='' /&gt;" Guid="765b9c49-6d16-4634-a15a-50b7b78b2c9d" InformativeScreenshot="3df44f98e95d26ee9e3c70cc583cd76f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Creating new oppurtunity&quot;]" />
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Opportunity'" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="08868ae2-0494-4c9a-a83e-3db0787ec2d3" CvElementArea="1221, 729, 172, 50" CvTextArea="1236, 745, 140, 21" CvTextArgument="New Opportunity" CvType="Button" DesignTimeRectangle="11, 192, 0, 0" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningMenuItem/auraHtml' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningMenuItem/auraHtml' tag='SPAN' type='' class='slds-truncate' aaname='New Opportunity' check:innerText='New Opportunity' /&gt;" Guid="209acc96-7524-4557-b19d-a9a1bf908c1a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                </Sequence>
-                <Sequence sap:VirtualizedContainerService.HintSize="554,1989.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uix:NSelectItem DisplayName="Select Item 'Market'" sap:VirtualizedContainerService.HintSize="388,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Energy" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NSelectItem.Items>
-                      <scg:List x:TypeArguments="x:String" Capacity="6">
-                        <x:String>--None--</x:String>
-                        <x:String>Energy</x:String>
-                        <x:String>Enterprise</x:String>
-                        <x:String>Hyperscale</x:String>
-                        <x:String>Industrial</x:String>
-                        <x:String>Service Provider</x:String>
-                      </scg:List>
-                    </uix:NSelectItem.Items>
-                    <uix:NSelectItem.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" CVScreenId="05861beb-982b-451b-9d70-b961b770511a" CvElementArea="37, 821, 444, 52" CvType="InputBox" DesignTimeRectangle="39, 824, 442, 48" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl idx='2' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="d3c7b604-a975-4c83-859e-051a1d6909d2" ImageBase64="" InformativeScreenshot="da3e9e7458a86f16f3421f357b59e425.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                        <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target CVScreenId="05861beb-982b-451b-9d70-b961b770511a" CvTextArea="37, 795, 60, 18" CvTextArgument="Market" CvType="Text" DesignTimeRectangle="39, 793, 59, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Market' class='nx-template' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Market' class='nx-template' tag='DIV' type='' check:innerText='Market' /&gt;" Guid="7d3d5031-1c1d-4179-9af8-4363f5c8e268" SearchSteps="FuzzySelector, CV" />
+        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="490,992" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+          <TryCatch.Variables>
+            <Variable x:TypeArguments="ui:Image" Name="exceptionScreenshot" />
+          </TryCatch.Variables>
+          <TryCatch.Try>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Home | Salesforce" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V2" WindowResize="Maximize">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,8485" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Int32" Name="RetryCounter" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence sap:VirtualizedContainerService.HintSize="554,1814" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Launched Oracle Application...&quot;]" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search...'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="TEST Account" Version="V3">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/page/home" CVScreenId="85f66b8f-bc2b-43e1-a912-ddb66462bb62" CvTextArea="685, 276, 73, 18" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="631, 261, 600, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='slds-button slds-button_neutral search-button slds-truncate' aaname='Search...' check:innerText='Search...' /&gt;" Guid="c9ffdf03-43bf-4982-9849-b7cb1deb2ede" InformativeScreenshot="9ca553fee38b5703748804b878296741.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TEST AccountAccount'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/page/home" DesignTimeRectangle="332, 519, 574, 63" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/auraIf/auraIf/forceSearchDesktopHeaderManager/forceSearchAssistant:searchAssistant/forceSearchAssistantDialogContainer:assistantDialogContainer/forceSearchAssistantDialog:assistantDialog/search_dialogInstantResultsList:suggestionsList' tag='SEARCH_DIALOG-INSTANT-RESULTS-LIST' /&gt;&lt;webctrl aria-labelledby='suggestion-tooltip-label-165 separator-label-165 secondary-label-165 separator-label-165 record-preview-move-to-label-165' aria-role='option' tag='DIV' innertext='TEST AccountAccount' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/auraIf/auraIf/forceSearchDesktopHeaderManager/forceSearchAssistant:searchAssistant/forceSearchAssistantDialogContainer:assistantDialogContainer/forceSearchAssistantDialog:assistantDialog/search_dialogInstantResultsList:suggestionsList' tag='SEARCH_DIALOG-INSTANT-RESULTS-LIST' /&gt;&lt;webctrl aria-labelledby='suggestion-tooltip-label-165 separator-label-165 secondary-label-165 separator-label-165 record-preview-move-to-label-165' aria-role='option' tag='DIV' innertext='TEST AccountAccount' type='' class='slds-text-link--reset slds-grid slds-grid--vertical-align-center slds-truncate instant-result-item slds-p-left_small two-fields instant-result-item-record-suggestion' aaname='' check:text='TEST AccountAccount' /&gt;" Guid="d4447506-6cb6-4fec-8e10-604f7c063790" InformativeScreenshot="e9313d3c43455e3349d618e5bec8a2c5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="Element 'TEST Account'" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="c2b888ed-8b13-4d20-ba5a-0da5e2f5d2d2" CvTextArea="117, 444, 177, 24" CvTextArgument="TEST Account" CvType="Text" DesignTimeRectangle="120, 437, 173, 36" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' type='' class='' aaname='TEST Account' check:innerText='TEST Account' /&gt;" Guid="46b9bf43-39fd-4240-8d49-5852b736d528" InformativeScreenshot="07bc367ab40226bd22427c2865a27af5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_10" Message="[&quot;Clicked on TEST Account&quot;]" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Opportunities'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="c2b888ed-8b13-4d20-ba5a-0da5e2f5d2d2" CvTextArea="522, 667, 148, 27" CvTextArgument="Opportunities" CvType="Text" DesignTimeRectangle="524, 647, 147, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Opportunities' aria-role='tab' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Opportunities' aria-role='tab' tag='A' type='' class='slds-tabs_default__link' check:innerText='Opportunities' /&gt;" Guid="578dec3c-bb3a-4bb9-8742-95b9e9177940" InformativeScreenshot="5864b1fb7765f3655fbf9f2be2a2aa12.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="Label 'Recent Opportunities'" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="01e45bd0-1bf3-4e36-a6ad-0c6004b2d1c3" CvTextArea="106, 693, 243, 27" CvTextArgument="Recent Opportunities" CvType="Text" DesignTimeRectangle="108, 687, 241, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/auraHtml' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/auraHtml' tag='STRONG' type='' class='' aaname='Recent Opportunities' check:innerText='Recent Opportunities' /&gt;" Guid="2b1eb978-1111-4007-9243-c92e5db8ce93" InformativeScreenshot="6357f294c47411dec128e3dbd7b35715.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="01e45bd0-1bf3-4e36-a6ad-0c6004b2d1c3" CvElementArea="1216, 686, 36, 36" CvType="ArrowButton" DesignTimeRectangle="1226, 697, 18, 18" DesignTimeScaleFactor="1.5" ElementType="Icon" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningPrimitiveIcon' tag='LIGHTNING-PRIMITIVE-ICON' /&gt;&lt;webctrl tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningPrimitiveIcon' tag='LIGHTNING-PRIMITIVE-ICON' /&gt;&lt;webctrl tag='svg' type='' class='slds-button__icon' aaname='' /&gt;" Guid="765b9c49-6d16-4634-a15a-50b7b78b2c9d" InformativeScreenshot="3df44f98e95d26ee9e3c70cc583cd76f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Creating new oppurtunity&quot;]" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Opportunity'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Account/001A0000014Gcn2IAC/view" CVScreenId="08868ae2-0494-4c9a-a83e-3db0787ec2d3" CvElementArea="1221, 729, 172, 50" CvTextArea="1236, 745, 140, 21" CvTextArgument="New Opportunity" CvType="Button" DesignTimeRectangle="11, 192, 0, 0" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningMenuItem/auraHtml' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2/flexipageComponent3/cAFLOppRelatedList/lightningButtonMenu/lightningMenuItem/auraHtml' tag='SPAN' type='' class='slds-truncate' aaname='New Opportunity' check:innerText='New Opportunity' /&gt;" Guid="209acc96-7524-4557-b19d-a9a1bf908c1a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TEST Account | Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                    <Sequence sap:VirtualizedContainerService.HintSize="554,2707" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NSelectItem DisplayName="Select Item 'Market'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Energy" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NSelectItem.Items>
+                          <scg:List x:TypeArguments="x:String" Capacity="6">
+                            <x:String>--None--</x:String>
+                            <x:String>Energy</x:String>
+                            <x:String>Enterprise</x:String>
+                            <x:String>Hyperscale</x:String>
+                            <x:String>Industrial</x:String>
+                            <x:String>Service Provider</x:String>
                           </scg:List>
-                        </uix:TargetAnchorable.Anchors>
-                      </uix:TargetAnchorable>
-                    </uix:NSelectItem.Target>
-                  </uix:NSelectItem>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Account Rep'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Tammy Dame" Version="V3">
-                    <uix:NTypeInto.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="505, 935, 442, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-autocomplete-input' idx='4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-autocomplete-input' type='' tag='INPUT' aaname='' /&gt;" Guid="cae2d1b4-27db-45a2-9c25-c668d32d83b2" InformativeScreenshot="8b8f03bf6c446e94f2b85121741166ef.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
-                        <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target CVScreenId="05861beb-982b-451b-9d70-b961b770511a" CvTextArea="502, 906, 108, 21" CvTextArgument="Account Rep" CvType="Text" DesignTimeRectangle="505, 904, 106, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Account Rep' class='nx-template' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Account Rep' class='nx-template' tag='DIV' type='' check:innerText='Account Rep' /&gt;" Guid="68cea7ee-41d3-448a-9330-de19eefbe6f4" SearchSteps="FuzzySelector, CV" />
-                          </scg:List>
-                        </uix:TargetAnchorable.Anchors>
-                      </uix:TargetAnchorable>
-                    </uix:NTypeInto.Target>
-                    <uix:NTypeInto.VerifyOptions>
-                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionTypeIntoOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionTypeIntoOptions.Retry>
-                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                      </uix:VerifyExecutionTypeIntoOptions>
-                    </uix:NTypeInto.VerifyOptions>
-                  </uix:NTypeInto>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Tammy Dame'" sap:VirtualizedContainerService.HintSize="388,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="12, 461, 0, 0" DesignTimeScaleFactor="1.5" ElementType="ListItem" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-*' tag='LI' innertext='Tammy Dame' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-117' tag='LI' innertext='Tammy Dame' type='' class='ui-menu-item' aaname='' check:text='Tammy Dame' /&gt;" Guid="206a35d5-e123-479e-ba4f-3df738e70f68" InformativeScreenshot="c691d3c947a7d0ce401664ae232fccfb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Contact'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Melissa Rosa" Version="V3">
-                    <uix:NTypeInto.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="109, 940, 688, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='ui-autocomplete-input sk-focus-keyboard' aaname='' /&gt;" Guid="85218aa2-2f80-4d18-bccb-8b75f7ce8262" InformativeScreenshot="64c3c75f32d0235f88b2ed0107b78115.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
-                        <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target CVScreenId="d14d6af5-ae8e-4491-996e-142bed12e031" CvTextArea="106, 892, 94, 16" CvTextArgument="CONTACT" CvType="Text" DesignTimeRectangle="109, 890, 93, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='Contact' check:innerText='CONTACT' /&gt;" Guid="399a01b2-cdb4-4df8-aec6-3aad585633de" SearchSteps="FuzzySelector, CV" />
-                          </scg:List>
-                        </uix:TargetAnchorable.Anchors>
-                      </uix:TargetAnchorable>
-                    </uix:NTypeInto.Target>
-                    <uix:NTypeInto.VerifyOptions>
-                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionTypeIntoOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionTypeIntoOptions.Retry>
-                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                      </uix:VerifyExecutionTypeIntoOptions>
-                    </uix:NTypeInto.VerifyOptions>
-                  </uix:NTypeInto>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Melissa Rosa'" sap:VirtualizedContainerService.HintSize="388,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="12, 461, 0, 0" DesignTimeScaleFactor="1.5" ElementType="ListItem" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-*' tag='LI' innertext='Melissa Rosa / AFL Telecommunications LLC' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-119' tag='LI' innertext='Melissa Rosa / AFL Telecommunications LLC' type='' class='ui-menu-item' aaname='' check:text='Melissa Rosa / AFL Telecommunications LLC' /&gt;" Guid="abc8bad8-f90f-45e7-9291-801449a638b4" InformativeScreenshot="c691d3c947a7d0ce401664ae232fccfb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="388,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" CVScreenId="6716e1e5-13e3-4447-9577-18ee2c3c6116" CvElementArea="1684, 1013, 93, 51" CvTextArea="1710, 1030, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1689, 1017, 86, 45" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-button-text' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-button-text' tag='SPAN' type='' aaname='Save' check:innerText='Save' /&gt;" Guid="527d75b6-3904-4e09-9ef3-28d2d2376cb4" InformativeScreenshot="53ae16df10ab1ef6ee8d7a00abaa7bc3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                        <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target CVScreenId="6716e1e5-13e3-4447-9577-18ee2c3c6116" CvElementArea="1684, 1013, 93, 51" CvTextArea="1710, 1030, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1688, 1016, 88, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aria-role='button' type='' tag='DIV' class='ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only' aaname='' check:innerText='Save' /&gt;" Guid="2287b8b4-9d9b-493c-8a9d-468724112d7e" SearchSteps="FuzzySelector, CV" />
-                          </scg:List>
-                        </uix:TargetAnchorable.Anchors>
-                      </uix:TargetAnchorable>
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="Element 'Opportunity'" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Target>
-                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="40022e53-d041-443b-8897-84194bc281a8" CvTextArea="118, 420, 108, 22" CvTextArgument="Opportunity" CvType="Text" DesignTimeRectangle="120, 415, 105, 26" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' type='' class='' aaname='Opportunity' check:innerText='Opportunity' /&gt;" Guid="a269fddd-7cc9-491c-ab15-6388f3b4a986" InformativeScreenshot="a4d050ceffb4cc01c972c09ae142838a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                        </uix:VerifyExecutionOptions.Target>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Creating new CPQ Quote&quot;]" />
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New CPQ Quote'" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="8ea5f328-3a83-4004-a8e9-b43891d18a53" CvElementArea="1537, 420, 193, 52" CvTextArea="1563, 436, 142, 19" CvTextArgument="New CPQ Quote" CvType="Button" DesignTimeRectangle="1540, 422, 191, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' type='button' class='slds-button slds-button_neutral' check:innerText='New CPQ Quote' /&gt;" Guid="fdd3819a-c4a3-4377-b38c-afee7f371b32" InformativeScreenshot="6b6864060ac4b51ad86d1dc9d5367cb0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="Label 'New CPQ Quote'" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Target>
-                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvTextArea="861, 294, 217, 26" CvTextArgument="New CPQ Quote" CvType="Text" DesignTimeRectangle="365, 288, 1212, 38" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' type='' class='slds-modal__title' aaname='New CPQ Quote' check:innerText='New CPQ Quote' /&gt;" Guid="ddee8217-2b3f-4953-b093-35f49c528e52" InformativeScreenshot="d5165136ae0c1a0de9e4233badb12c0d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                        </uix:VerifyExecutionOptions.Target>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                </Sequence>
-                <Assign sap:VirtualizedContainerService.HintSize="554,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
-                  <Assign.To>
-                    <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
-                  </Assign.To>
-                  <Assign.Value>
-                    <InArgument x:TypeArguments="x:Int32">1</InArgument>
-                  </Assign.Value>
-                </Assign>
-                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="554,3258.6666666666665" sap2010:WorkflowViewState.IdRef="RetryScope_1">
-                  <ui:RetryScope.ActivityBody>
-                    <ActivityAction>
-                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,3054.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_10">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,178" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;Retry Count: &quot;+RetryCounter.ToString]" />
-                        <If Condition="[RetryCounter&gt;1]" sap:VirtualizedContainerService.HintSize="450,810" sap2010:WorkflowViewState.IdRef="If_1">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,534.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                        </uix:NSelectItem.Items>
+                        <uix:NSelectItem.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" CVScreenId="05861beb-982b-451b-9d70-b961b770511a" CvElementArea="37, 821, 444, 52" CvType="InputBox" DesignTimeRectangle="39, 824, 442, 48" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl idx='2' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="d3c7b604-a975-4c83-859e-051a1d6909d2" ImageBase64="" InformativeScreenshot="da3e9e7458a86f16f3421f357b59e425.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="05861beb-982b-451b-9d70-b961b770511a" CvTextArea="37, 795, 60, 18" CvTextArgument="Market" CvType="Text" DesignTimeRectangle="39, 793, 59, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Market' class='nx-template' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Market' class='nx-template' tag='DIV' type='' check:innerText='Market' /&gt;" Guid="7d3d5031-1c1d-4179-9af8-4363f5c8e268" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSelectItem.Target>
+                      </uix:NSelectItem>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;Input Market - Energy&quot;]" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Account Rep'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,254" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Tammy Dame" Version="V3">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="505, 935, 442, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-autocomplete-input' idx='4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-autocomplete-input' type='' tag='INPUT' aaname='' /&gt;" Guid="cae2d1b4-27db-45a2-9c25-c668d32d83b2" InformativeScreenshot="8b8f03bf6c446e94f2b85121741166ef.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="05861beb-982b-451b-9d70-b961b770511a" CvTextArea="502, 906, 108, 21" CvTextArgument="Account Rep" CvType="Text" DesignTimeRectangle="505, 904, 106, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Account Rep' class='nx-template' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='Account Rep' class='nx-template' tag='DIV' type='' check:innerText='Account Rep' /&gt;" Guid="68cea7ee-41d3-448a-9330-de19eefbe6f4" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Tammy Dame'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="12, 461, 0, 0" DesignTimeScaleFactor="1.5" ElementType="ListItem" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-*' tag='LI' innertext='Tammy Dame' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-117' tag='LI' innertext='Tammy Dame' type='' class='ui-menu-item' aaname='' check:text='Tammy Dame' /&gt;" Guid="206a35d5-e123-479e-ba4f-3df738e70f68" InformativeScreenshot="c691d3c947a7d0ce401664ae232fccfb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_12" Message="[&quot;Input Account Rep - Tammy Dame&quot;]" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Contact'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,254" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Melissa Rosa" Version="V3">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="109, 940, 688, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='ui-autocomplete-input sk-focus-keyboard' aaname='' /&gt;" Guid="85218aa2-2f80-4d18-bccb-8b75f7ce8262" InformativeScreenshot="64c3c75f32d0235f88b2ed0107b78115.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="d14d6af5-ae8e-4491-996e-142bed12e031" CvTextArea="106, 892, 94, 16" CvTextArgument="CONTACT" CvType="Text" DesignTimeRectangle="109, 890, 93, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='Contact' check:innerText='CONTACT' /&gt;" Guid="399a01b2-cdb4-4df8-aec6-3aad585633de" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Melissa Rosa'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" DesignTimeRectangle="12, 461, 0, 0" DesignTimeScaleFactor="1.5" ElementType="ListItem" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-*' tag='LI' innertext='Melissa Rosa / AFL Telecommunications LLC' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='ui-id-119' tag='LI' innertext='Melissa Rosa / AFL Telecommunications LLC' type='' class='ui-menu-item' aaname='' check:text='Melissa Rosa / AFL Telecommunications LLC' /&gt;" Guid="abc8bad8-f90f-45e7-9291-801449a638b4" InformativeScreenshot="c691d3c947a7d0ce401664ae232fccfb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_13" Message="[&quot;Input Contact - Melissa Rosa&quot;]" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9hZmwtLXNmdGVzdC5zYW5kYm94LmxpZ2h0bmluZy5mb3JjZS5jb20vYXBleC9BRkxTa3VpZF9PcHBDcmVhdGVMRVg%2FYWNjaWQ9MDAxQTAwMDAwMTRHY24ySUFDIn0sInN0YXRlIjp7fX0%3D" CVScreenId="6716e1e5-13e3-4447-9577-18ee2c3c6116" CvElementArea="1684, 1013, 93, 51" CvTextArea="1710, 1030, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1689, 1017, 86, 45" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-button-text' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl class='ui-button-text' tag='SPAN' type='' aaname='Save' check:innerText='Save' /&gt;" Guid="527d75b6-3904-4e09-9ef3-28d2d2376cb4" InformativeScreenshot="53ae16df10ab1ef6ee8d7a00abaa7bc3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='skuid__Ui | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="6716e1e5-13e3-4447-9577-18ee2c3c6116" CvElementArea="1684, 1013, 93, 51" CvTextArea="1710, 1030, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1688, 1016, 88, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneAlohaPage/auraIf/auraIf/forceAlohaPage:alohaFrame' tag='FORCE-ALOHA-PAGE' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aria-role='button' type='' tag='DIV' class='ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only' aaname='' check:innerText='Save' /&gt;" Guid="2287b8b4-9d9b-493c-8a9d-468724112d7e" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="Element 'Opportunity'" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="40022e53-d041-443b-8897-84194bc281a8" CvTextArea="118, 420, 108, 22" CvTextArgument="Opportunity" CvType="Text" DesignTimeRectangle="120, 415, 105, 26" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' type='' class='' aaname='Opportunity' check:innerText='Opportunity' /&gt;" Guid="a269fddd-7cc9-491c-ab15-6388f3b4a986" InformativeScreenshot="a4d050ceffb4cc01c972c09ae142838a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Created New Oppurtunity&quot;]" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Creating new CPQ Quote&quot;]" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New CPQ Quote'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="8ea5f328-3a83-4004-a8e9-b43891d18a53" CvElementArea="1537, 420, 193, 52" CvTextArea="1563, 436, 142, 19" CvTextArgument="New CPQ Quote" CvType="Button" DesignTimeRectangle="1540, 422, 191, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' type='button' class='slds-button slds-button_neutral' check:innerText='New CPQ Quote' /&gt;" Guid="fdd3819a-c4a3-4377-b38c-afee7f371b32" InformativeScreenshot="6b6864060ac4b51ad86d1dc9d5367cb0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="Label 'New CPQ Quote'" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvTextArea="861, 294, 217, 26" CvTextArgument="New CPQ Quote" CvType="Text" DesignTimeRectangle="365, 288, 1212, 38" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' type='' class='slds-modal__title' aaname='New CPQ Quote' check:innerText='New CPQ Quote' /&gt;" Guid="ddee8217-2b3f-4953-b093-35f49c528e52" InformativeScreenshot="d5165136ae0c1a0de9e4233badb12c0d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                    <Assign sap:VirtualizedContainerService.HintSize="554,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Int32">1</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="554,3647" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+                      <ui:RetryScope.ActivityBody>
+                        <ActivityAction>
+                          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,3472" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;Retry Count: &quot;+RetryCounter.ToString]" />
+                            <If Condition="[RetryCounter&gt;1]" sap:VirtualizedContainerService.HintSize="450,776" sap2010:WorkflowViewState.IdRef="If_1">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="376,514" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="334,193" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcpS2AAJ&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcpS2AAJ%2Fview" CVScreenId="a343562f-6b95-48fb-8e65-2ebdb5f23b85" CvElementArea="1363, 951, 113, 52" CvTextArea="1390, 967, 58, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1368, 954, 107, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraHtml:button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraHtml:button' tag='BUTTON' type='button' class='slds-button slds-button_neutral cuf-publisherCancelButton uiButton--default uiButton--brand uiButton' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="eb6b9487-d472-4617-8bb7-39ca160e2eea" InformativeScreenshot="26fefe683b45ed0f44b957cf8f3fe2f8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="a343562f-6b95-48fb-8e65-2ebdb5f23b85" CvElementArea="1363, 951, 113, 52" CvTextArea="1390, 967, 58, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1393, 955, 57, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraIf/auraHtml:span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraIf/auraHtml:span' tag='SPAN' type='' class=' label bBody' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="83caace1-eeb0-42a2-942a-45ffd1b0a226" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                  </uix:NClick>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New CPQ Quote'" sap:VirtualizedContainerService.HintSize="334,193" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="8ea5f328-3a83-4004-a8e9-b43891d18a53" CvElementArea="1537, 420, 193, 52" CvTextArea="1563, 436, 142, 19" CvTextArgument="New CPQ Quote" CvType="Button" DesignTimeRectangle="1540, 422, 191, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' type='button' class='slds-button slds-button_neutral' check:innerText='New CPQ Quote' /&gt;" Guid="fdd3819a-c4a3-4377-b38c-afee7f371b32" InformativeScreenshot="6b6864060ac4b51ad86d1dc9d5367cb0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="Label 'New CPQ Quote'" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Target>
+                                          <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvTextArea="861, 294, 217, 26" CvTextArgument="New CPQ Quote" CvType="Text" DesignTimeRectangle="365, 288, 1212, 38" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' type='' class='slds-modal__title' aaname='New CPQ Quote' check:innerText='New CPQ Quote' /&gt;" Guid="ddee8217-2b3f-4953-b093-35f49c528e52" InformativeScreenshot="d5165136ae0c1a0de9e4233badb12c0d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                        </uix:VerifyExecutionOptions.Target>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                  </uix:NClick>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="300,80" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                            <Assign sap:VirtualizedContainerService.HintSize="450,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:Int32">[RetryCounter+1]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <Sequence sap:VirtualizedContainerService.HintSize="450,2240" sap2010:WorkflowViewState.IdRef="Sequence_9">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="354,228" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                                <uix:NClick.Target>
-                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcpS2AAJ&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcpS2AAJ%2Fview" CVScreenId="a343562f-6b95-48fb-8e65-2ebdb5f23b85" CvElementArea="1363, 951, 113, 52" CvTextArea="1390, 967, 58, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1368, 954, 107, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraHtml:button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraHtml:button' tag='BUTTON' type='button' class='slds-button slds-button_neutral cuf-publisherCancelButton uiButton--default uiButton--brand uiButton' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="eb6b9487-d472-4617-8bb7-39ca160e2eea" InformativeScreenshot="26fefe683b45ed0f44b957cf8f3fe2f8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Quoted Contact*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,254" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Melissa Rosa" Version="V3">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvElementArea="386, 561, 550, 61" CvType="InputBox" DesignTimeRectangle="390, 565, 508, 54" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/forceChatterPublisherQuickCreate/forceQuickActionLayout:quickActionLayout/auraIf/forceRecordLayoutBroker:recordLayout/rlSBQQ__Quote__cEDITMDP0123m000001TRfvAAGOpportunity_New_CPQ_Quote0060300000CcnvvAAB_1062697841576f753847584d704f4f6150494c345a42413d3dC/forcePageBlockItemEdit:pageBlockItem/forceSearchInputLookupDesktop:Quoted_Contact__c/auraIf/uiAutocomplete:autocomplete/auraIf/uiInputTextForAutocomplete:input/auraHtml:txt' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/forceChatterPublisherQuickCreate/forceQuickActionLayout:quickActionLayout/auraIf/forceRecordLayoutBroker:recordLayout/rlSBQQ__Quote__cEDITMDP0123m000001TRfvAAGOpportunity_New_CPQ_Quote0060300000CcnvvAAB_1062697841576f753847584d704f4f6150494c345a42413d3dC/forcePageBlockItemEdit:pageBlockItem/forceSearchInputLookupDesktop:Quoted_Contact__c/auraIf/uiAutocomplete:autocomplete/auraIf/uiInputTextForAutocomplete:input/auraHtml:txt' tag='INPUT' type='text' class=' default input uiInput uiInputTextForAutocomplete uiInput--default uiInput--input uiInput uiAutocomplete uiInput--default uiInput--lookup' placeholder='Search Contacts...' aaname='Quoted Contact*' /&gt;" Guid="73ad3ff4-26a8-4c4a-b616-e154913c3c77" InformativeScreenshot="9b1172c28510cdffa3d6886fbc7aa279.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                     <uix:TargetAnchorable.Anchors>
                                       <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                        <uix:Target CVScreenId="a343562f-6b95-48fb-8e65-2ebdb5f23b85" CvElementArea="1363, 951, 113, 52" CvTextArea="1390, 967, 58, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1393, 955, 57, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraIf/auraHtml:span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:publisherCancelButton/auraIf/auraHtml:span' tag='SPAN' type='' class=' label bBody' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="83caace1-eeb0-42a2-942a-45ffd1b0a226" SearchSteps="FuzzySelector, CV" />
+                                        <uix:Target CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvTextArea="387, 534, 146, 19" CvTextArgument="Quoted Contact*" CvType="Text" DesignTimeRectangle="389, 529, 149, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='uiInput/uiLabel:inputLabel/auraHtml:labelElement' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' sfl-path='uiInput/uiLabel:inputLabel/auraHtml:labelElement' tag='LABEL' class='label inputLabel uiLabel-left form-element__label uiLabel' aaname='' check:innerText='Quoted Contact*' /&gt;" Guid="6f4d0bfe-358f-4f85-9d15-d39bc6842675" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Melissa RosaAFL'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" DesignTimeRectangle="391, 687, 541, 65" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Melissa RosaAFL Telecommunications LLC' aria-role='option' sfl-path='uiAutocompleteOption/auraHtml:option' tag='A' innertext='Melissa RosaAFL Telecommunications LLC' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Melissa RosaAFL Telecommunications LLC' aria-role='option' sfl-path='uiAutocompleteOption/auraHtml:option' tag='A' innertext='Melissa RosaAFL Telecommunications LLC' type='' class='' check:text='Melissa RosaAFL Telecommunications LLC' /&gt;" Guid="3f6578c3-5acd-49a7-ba71-821f94a9ca55" InformativeScreenshot="1a1e5c89fcd3c7698e2827a1cad2511b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[&quot;Input Quoted Contact - Melissa Rosa&quot;]" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="10c966c0-09a3-478b-8601-56b4acedbdfa" CvElementArea="1483, 952, 95, 51" CvTextArea="1509, 967, 43, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1487, 954, 90, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraHtml:button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraHtml:button' tag='BUTTON' type='button' class='slds-button slds-button_brand cuf-publisherShareButton undefined uiButton' aaname='Save' check:innerText='Save' /&gt;" Guid="a8220b0d-5204-44ef-aff1-85c64710bdb4" InformativeScreenshot="5066d12420d1d62fa41ca82c2bec0ccb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="10c966c0-09a3-478b-8601-56b4acedbdfa" CvElementArea="1483, 952, 95, 51" CvTextArea="1509, 967, 43, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1512, 955, 40, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraIf/auraHtml:span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraIf/auraHtml:span' tag='SPAN' type='' class=' label bBody' aaname='Save' check:innerText='Save' /&gt;" Guid="dd6b565a-11b6-4bcc-829b-3bd747ed85fe" SearchSteps="FuzzySelector, CV" />
                                       </scg:List>
                                     </uix:TargetAnchorable.Anchors>
                                   </uix:TargetAnchorable>
@@ -434,17 +548,18 @@
                                   </uix:VerifyExecutionOptions>
                                 </uix:NClick.VerifyOptions>
                               </uix:NClick>
-                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New CPQ Quote'" sap:VirtualizedContainerService.HintSize="354,218.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_16" Message="[&quot;Created new CPQ Quote&quot;]" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Q-43923'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
                                 <uix:NClick.Target>
-                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="8ea5f328-3a83-4004-a8e9-b43891d18a53" CvElementArea="1537, 420, 193, 52" CvTextArea="1563, 436, 142, 19" CvTextArgument="New CPQ Quote" CvType="Button" DesignTimeRectangle="1540, 422, 191, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='2' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='New CPQ Quote' tag='BUTTON' type='button' class='slds-button slds-button_neutral' check:innerText='New CPQ Quote' /&gt;" Guid="fdd3819a-c4a3-4377-b38c-afee7f371b32" InformativeScreenshot="6b6864060ac4b51ad86d1dc9d5367cb0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="510fc646-9f97-48bc-bea7-324ab75893f6" CvTextArea="826, 361, 114, 22" CvTextArgument="&quot;Q-43923&quot;" CvType="Text" DesignTimeRectangle="837, 356, 93, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/forceToastManager:toastManager/forceToastMessage:toastMessage/forceActionsText:toastMessage/forceComponentsText/forceActionLink/auraHtml:linkLabel' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/forceToastManager:toastManager/forceToastMessage:toastMessage/forceActionsText:toastMessage/forceComponentsText/forceActionLink/auraHtml:linkLabel' tag='DIV' type='' class='' aaname='Q-43923' /&gt;" Guid="d151a223-fddc-4ee3-9171-d1ea604f5baa" InformativeScreenshot="b0b566107203712c294a3b9a870ace01.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                 </uix:NClick.Target>
                                 <uix:NClick.VerifyOptions>
-                                  <uix:VerifyExecutionOptions DisplayName="Label 'New CPQ Quote'" Mode="Appears">
+                                  <uix:VerifyExecutionOptions DisplayName="Element 'CPQ Quote'" Mode="Appears">
                                     <uix:VerifyExecutionOptions.Retry>
                                       <InArgument x:TypeArguments="x:Boolean" />
                                     </uix:VerifyExecutionOptions.Retry>
                                     <uix:VerifyExecutionOptions.Target>
-                                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvTextArea="861, 294, 217, 26" CvTextArgument="New CPQ Quote" CvType="Text" DesignTimeRectangle="365, 288, 1212, 38" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/auraHtml' tag='H2' type='' class='slds-modal__title' aaname='New CPQ Quote' check:innerText='New CPQ Quote' /&gt;" Guid="ddee8217-2b3f-4953-b093-35f49c528e52" InformativeScreenshot="d5165136ae0c1a0de9e4233badb12c0d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                      <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/SBQQ__Quote__c/a7H030000000VfrEAE/view" CVScreenId="61141159-cc9b-4617-af54-ac39c5c65c1e" CvTextArea="118, 420, 99, 19" CvTextArgument="CPQ Quote" CvType="Text" DesignTimeRectangle="120, 416, 97, 26" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' type='' class='' aaname='CPQ Quote' check:innerText='CPQ Quote' /&gt;" Guid="0dd0cb95-64ad-4278-8fd0-258d41596759" InformativeScreenshot="e04fe1c2d85d43785d3151d976c8998a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Q-43924 | CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
                                     </uix:VerifyExecutionOptions.Target>
                                     <uix:VerifyExecutionOptions.Timeout>
                                       <InArgument x:TypeArguments="x:Double" />
@@ -452,177 +567,114 @@
                                   </uix:VerifyExecutionOptions>
                                 </uix:NClick.VerifyOptions>
                               </uix:NClick>
+                              <uix:NGetText DisplayName="Get Text 'CPQ Quote'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" TextString="[QuoteNumber]" Version="V3">
+                                <uix:NGetText.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/SBQQ__Quote__c/a7H030000000VfrEAE/view" CVScreenId="4221dbe6-a8c3-4281-b743-0f2ef7892045" CvTextArea="117, 445, 112, 27" CvType="AnyWordGroup" DesignTimeRectangle="120, 438, 109, 36" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' type='' class='' /&gt;" Guid="398aa8ed-94f8-4d8d-b4c2-3e5c99cffdef" ImageBase64="" InformativeScreenshot="8be953be6bc4dd5bb8922265e08a27e6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Q-43924 | CPQ Quote | Salesforce' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="4221dbe6-a8c3-4281-b743-0f2ef7892045" CvTextArea="118, 420, 99, 19" CvTextArgument="CPQ Quote" CvType="Text" DesignTimeRectangle="120, 416, 97, 26" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' type='' class='' aaname='CPQ Quote' check:innerText='CPQ Quote' /&gt;" Guid="ed10b8a0-4ab9-4b70-9cba-4dac87b7f014" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NGetText.Target>
+                              </uix:NGetText>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Quote Number: &quot;+QuoteNumber]" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Custom QLE'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/SBQQ__Quote__c/a7H030000000VfrEAE/view" CVScreenId="61141159-cc9b-4617-af54-ac39c5c65c1e" CvElementArea="878, 810, 158, 51" CvTextArea="903, 826, 108, 19" CvTextArgument="Custom QLE" CvType="Button" DesignTimeRectangle="881, 813, 155, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Open UI' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Open UI' tag='BUTTON' type='button' class='slds-button slds-button_success' check:innerText='Custom QLE' /&gt;" Guid="7fc0386c-64c1-427c-ae30-a5a2755f8416" InformativeScreenshot="4dbec02b79d3cf0e9b8a2e96fcb74ab8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Q-43924 | CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NGetText DisplayName="Get Text 'TEST Account - Q-43924'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" TextString="[OutputLabel]" Version="V3">
+                                <uix:NGetText.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZnJFQUUiLCJjb21lRnJvbVBTIjoiZmFsc2UifSwic3RhdGUiOnt9fQ%3D%3D" CVScreenId="12aaf5f5-7689-4dc1-a321-48e7fe8f9f1c" CvElementArea="141, 490, 327, 80" CvTextArea="166, 520, 276, 24" CvTextArgument="TEST Account - Q-43924" CvType="Button" DesignTimeRectangle="169, 516, 274, 30" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl aaname='TEST Account - Q-43924' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='SPAN' type='' class='slds-page-header__title slds-truncate' /&gt;" Guid="ec7d65bb-6651-4a76-b81f-902a5c47df79" ImageBase64="" InformativeScreenshot="880c02da8a4e91308d1c4043c9594d5d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                </uix:NGetText.Target>
+                              </uix:NGetText>
                             </Sequence>
-                          </If.Then>
-                          <If.Else>
-                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,104" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </Sequence>
-                          </If.Else>
-                        </If>
-                        <Assign sap:VirtualizedContainerService.HintSize="450,116.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_2">
-                          <Assign.To>
-                            <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
-                          </Assign.To>
-                          <Assign.Value>
-                            <InArgument x:TypeArguments="x:Int32">[RetryCounter+1]</InArgument>
-                          </Assign.Value>
-                        </Assign>
-                        <Sequence sap:VirtualizedContainerService.HintSize="450,1862" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Quoted Contact*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,289.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Melissa Rosa" Version="V3">
-                            <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvElementArea="386, 561, 550, 61" CvType="InputBox" DesignTimeRectangle="390, 565, 508, 54" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/forceChatterPublisherQuickCreate/forceQuickActionLayout:quickActionLayout/auraIf/forceRecordLayoutBroker:recordLayout/rlSBQQ__Quote__cEDITMDP0123m000001TRfvAAGOpportunity_New_CPQ_Quote0060300000CcnvvAAB_1062697841576f753847584d704f4f6150494c345a42413d3dC/forcePageBlockItemEdit:pageBlockItem/forceSearchInputLookupDesktop:Quoted_Contact__c/auraIf/uiAutocomplete:autocomplete/auraIf/uiInputTextForAutocomplete:input/auraHtml:txt' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/forceChatterPublisherQuickCreate/forceQuickActionLayout:quickActionLayout/auraIf/forceRecordLayoutBroker:recordLayout/rlSBQQ__Quote__cEDITMDP0123m000001TRfvAAGOpportunity_New_CPQ_Quote0060300000CcnvvAAB_1062697841576f753847584d704f4f6150494c345a42413d3dC/forcePageBlockItemEdit:pageBlockItem/forceSearchInputLookupDesktop:Quoted_Contact__c/auraIf/uiAutocomplete:autocomplete/auraIf/uiInputTextForAutocomplete:input/auraHtml:txt' tag='INPUT' type='text' class=' default input uiInput uiInputTextForAutocomplete uiInput--default uiInput--input uiInput uiAutocomplete uiInput--default uiInput--lookup' placeholder='Search Contacts...' aaname='Quoted Contact*' /&gt;" Guid="73ad3ff4-26a8-4c4a-b616-e154913c3c77" InformativeScreenshot="9b1172c28510cdffa3d6886fbc7aa279.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                                <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvTextArea="387, 534, 146, 19" CvTextArgument="Quoted Contact*" CvType="Text" DesignTimeRectangle="389, 529, 149, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='uiInput/uiLabel:inputLabel/auraHtml:labelElement' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' sfl-path='uiInput/uiLabel:inputLabel/auraHtml:labelElement' tag='LABEL' class='label inputLabel uiLabel-left form-element__label uiLabel' aaname='' check:innerText='Quoted Contact*' /&gt;" Guid="6f4d0bfe-358f-4f85-9d15-d39bc6842675" SearchSteps="FuzzySelector, CV" />
-                                  </scg:List>
-                                </uix:TargetAnchorable.Anchors>
-                              </uix:TargetAnchorable>
-                            </uix:NTypeInto.Target>
-                            <uix:NTypeInto.VerifyOptions>
-                              <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                  <InArgument x:TypeArguments="x:Boolean" />
-                                </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                  <InArgument x:TypeArguments="x:Double" />
-                                </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                              </uix:VerifyExecutionTypeIntoOptions>
-                            </uix:NTypeInto.VerifyOptions>
-                          </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Melissa RosaAFL'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                            <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" DesignTimeRectangle="391, 687, 541, 65" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Melissa RosaAFL Telecommunications LLC' aria-role='option' sfl-path='uiAutocompleteOption/auraHtml:option' tag='A' innertext='Melissa RosaAFL Telecommunications LLC' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Melissa RosaAFL Telecommunications LLC' aria-role='option' sfl-path='uiAutocompleteOption/auraHtml:option' tag='A' innertext='Melissa RosaAFL Telecommunications LLC' type='' class='' check:text='Melissa RosaAFL Telecommunications LLC' /&gt;" Guid="3f6578c3-5acd-49a7-ba71-821f94a9ca55" InformativeScreenshot="1a1e5c89fcd3c7698e2827a1cad2511b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                            </uix:NClick.Target>
-                            <uix:NClick.VerifyOptions>
-                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                <uix:VerifyExecutionOptions.Retry>
-                                  <InArgument x:TypeArguments="x:Boolean" />
-                                </uix:VerifyExecutionOptions.Retry>
-                                <uix:VerifyExecutionOptions.Timeout>
-                                  <InArgument x:TypeArguments="x:Double" />
-                                </uix:VerifyExecutionOptions.Timeout>
-                              </uix:VerifyExecutionOptions>
-                            </uix:NClick.VerifyOptions>
-                          </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                            <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="10c966c0-09a3-478b-8601-56b4acedbdfa" CvElementArea="1483, 952, 95, 51" CvTextArea="1509, 967, 43, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1487, 954, 90, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraHtml:button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraHtml:button' tag='BUTTON' type='button' class='slds-button slds-button_brand cuf-publisherShareButton undefined uiButton' aaname='Save' check:innerText='Save' /&gt;" Guid="a8220b0d-5204-44ef-aff1-85c64710bdb4" InformativeScreenshot="5066d12420d1d62fa41ca82c2bec0ccb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                                <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="10c966c0-09a3-478b-8601-56b4acedbdfa" CvElementArea="1483, 952, 95, 51" CvTextArea="1509, 967, 43, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1512, 955, 40, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraIf/auraHtml:span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraIf/auraHtml:span' tag='SPAN' type='' class=' label bBody' aaname='Save' check:innerText='Save' /&gt;" Guid="dd6b565a-11b6-4bcc-829b-3bd747ed85fe" SearchSteps="FuzzySelector, CV" />
-                                  </scg:List>
-                                </uix:TargetAnchorable.Anchors>
-                              </uix:TargetAnchorable>
-                            </uix:NClick.Target>
-                            <uix:NClick.VerifyOptions>
-                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                <uix:VerifyExecutionOptions.Retry>
-                                  <InArgument x:TypeArguments="x:Boolean" />
-                                </uix:VerifyExecutionOptions.Retry>
-                                <uix:VerifyExecutionOptions.Timeout>
-                                  <InArgument x:TypeArguments="x:Double" />
-                                </uix:VerifyExecutionOptions.Timeout>
-                              </uix:VerifyExecutionOptions>
-                            </uix:NClick.VerifyOptions>
-                          </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Q-43923'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                            <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/Opportunity/0060300000CcnvvAAB/view" CVScreenId="510fc646-9f97-48bc-bea7-324ab75893f6" CvTextArea="826, 361, 114, 22" CvTextArgument="&quot;Q-43923&quot;" CvType="Text" DesignTimeRectangle="837, 356, 93, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/forceToastManager:toastManager/forceToastMessage:toastMessage/forceActionsText:toastMessage/forceComponentsText/forceActionLink/auraHtml:linkLabel' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/forceToastManager:toastManager/forceToastMessage:toastMessage/forceActionsText:toastMessage/forceComponentsText/forceActionLink/auraHtml:linkLabel' tag='DIV' type='' class='' aaname='Q-43923' /&gt;" Guid="d151a223-fddc-4ee3-9171-d1ea604f5baa" InformativeScreenshot="b0b566107203712c294a3b9a870ace01.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opp: 2024-Jul-9/12:42UK | Opportunity | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                            </uix:NClick.Target>
-                            <uix:NClick.VerifyOptions>
-                              <uix:VerifyExecutionOptions DisplayName="Element 'CPQ Quote'" Mode="Appears">
-                                <uix:VerifyExecutionOptions.Retry>
-                                  <InArgument x:TypeArguments="x:Boolean" />
-                                </uix:VerifyExecutionOptions.Retry>
-                                <uix:VerifyExecutionOptions.Target>
-                                  <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/SBQQ__Quote__c/a7H030000000VfrEAE/view" CVScreenId="61141159-cc9b-4617-af54-ac39c5c65c1e" CvTextArea="118, 420, 99, 19" CvTextArgument="CPQ Quote" CvType="Text" DesignTimeRectangle="120, 416, 97, 26" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' type='' class='' aaname='CPQ Quote' check:innerText='CPQ Quote' /&gt;" Guid="0dd0cb95-64ad-4278-8fd0-258d41596759" InformativeScreenshot="e04fe1c2d85d43785d3151d976c8998a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Q-43924 | CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-                                </uix:VerifyExecutionOptions.Target>
-                                <uix:VerifyExecutionOptions.Timeout>
-                                  <InArgument x:TypeArguments="x:Double" />
-                                </uix:VerifyExecutionOptions.Timeout>
-                              </uix:VerifyExecutionOptions>
-                            </uix:NClick.VerifyOptions>
-                          </uix:NClick>
-                          <uix:NGetText DisplayName="Get Text 'CPQ Quote'" sap:VirtualizedContainerService.HintSize="388,190.66666666666666" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" TextString="[QuoteNumber]" Version="V3">
-                            <uix:NGetText.Target>
-                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/SBQQ__Quote__c/a7H030000000VfrEAE/view" CVScreenId="4221dbe6-a8c3-4281-b743-0f2ef7892045" CvTextArea="117, 445, 112, 27" CvType="AnyWordGroup" DesignTimeRectangle="120, 438, 109, 36" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='LIGHTNING-FORMATTED-TEXT' type='' class='' /&gt;" Guid="398aa8ed-94f8-4d8d-b4c2-3e5c99cffdef" ImageBase64="" InformativeScreenshot="8be953be6bc4dd5bb8922265e08a27e6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Q-43924 | CPQ Quote | Salesforce' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-                                <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="4221dbe6-a8c3-4281-b743-0f2ef7892045" CvTextArea="118, 420, 99, 19" CvTextArgument="CPQ Quote" CvType="Text" DesignTimeRectangle="120, 416, 97, 26" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' type='' class='' aaname='CPQ Quote' check:innerText='CPQ Quote' /&gt;" Guid="ed10b8a0-4ab9-4b70-9cba-4dac87b7f014" SearchSteps="FuzzySelector, CV" />
-                                  </scg:List>
-                                </uix:TargetAnchorable.Anchors>
-                              </uix:TargetAnchorable>
-                            </uix:NGetText.Target>
-                          </uix:NGetText>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,178" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Quote Number: &quot;+QuoteNumber]" />
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Custom QLE'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
-                            <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/SBQQ__Quote__c/a7H030000000VfrEAE/view" CVScreenId="61141159-cc9b-4617-af54-ac39c5c65c1e" CvElementArea="878, 810, 158, 51" CvTextArea="903, 826, 108, 19" CvTextArgument="Custom QLE" CvType="Button" DesignTimeRectangle="881, 813, 155, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Open UI' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Open UI' tag='BUTTON' type='button' class='slds-button slds-button_success' check:innerText='Custom QLE' /&gt;" Guid="7fc0386c-64c1-427c-ae30-a5a2755f8416" InformativeScreenshot="4dbec02b79d3cf0e9b8a2e96fcb74ab8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Q-43924 | CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                            </uix:NClick.Target>
-                            <uix:NClick.VerifyOptions>
-                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                <uix:VerifyExecutionOptions.Retry>
-                                  <InArgument x:TypeArguments="x:Boolean" />
-                                </uix:VerifyExecutionOptions.Retry>
-                                <uix:VerifyExecutionOptions.Timeout>
-                                  <InArgument x:TypeArguments="x:Double" />
-                                </uix:VerifyExecutionOptions.Timeout>
-                              </uix:VerifyExecutionOptions>
-                            </uix:NClick.VerifyOptions>
-                          </uix:NClick>
-                          <uix:NGetText DisplayName="Get Text 'TEST Account - Q-43924'" sap:VirtualizedContainerService.HintSize="388,181.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" TextString="[OutputLabel]" Version="V3">
-                            <uix:NGetText.Target>
-                              <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZnJFQUUiLCJjb21lRnJvbVBTIjoiZmFsc2UifSwic3RhdGUiOnt9fQ%3D%3D" CVScreenId="12aaf5f5-7689-4dc1-a321-48e7fe8f9f1c" CvElementArea="141, 490, 327, 80" CvTextArea="166, 520, 276, 24" CvTextArgument="TEST Account - Q-43924" CvType="Button" DesignTimeRectangle="169, 516, 274, 30" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl aaname='TEST Account - Q-43924' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='SPAN' type='' class='slds-page-header__title slds-truncate' /&gt;" Guid="ec7d65bb-6651-4a76-b81f-902a5c47df79" ImageBase64="" InformativeScreenshot="880c02da8a4e91308d1c4043c9594d5d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                            </uix:NGetText.Target>
-                          </uix:NGetText>
-                        </Sequence>
-                      </Sequence>
-                    </ActivityAction>
-                  </ui:RetryScope.ActivityBody>
-                  <ui:RetryScope.Condition>
-                    <ActivityFunc x:TypeArguments="x:Boolean" />
-                  </ui:RetryScope.Condition>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:RetryScope.ActivityBody>
+                      <ui:RetryScope.Condition>
+                        <ActivityFunc x:TypeArguments="x:Boolean" />
+                      </ui:RetryScope.Condition>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:RetryScope>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-11, -11, 1942, 1150" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="630810b78acc37d477b8a21c956b31df.jpg" Selector="&lt;html app='chrome.exe' title='Home | Salesforce' /&gt;" Title="Home | Salesforce" Url="https://afl--sftest.sandbox.lightning.force.com/lightning/page/home" />
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+          </TryCatch.Try>
+          <TryCatch.Catches>
+            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="456,621" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ActivityAction x:TypeArguments="s:Exception">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                </ActivityAction.Argument>
+                <Sequence sap:VirtualizedContainerService.HintSize="450,552" sap2010:WorkflowViewState.IdRef="Sequence_13">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                </ui:RetryScope>
-              </Sequence>
-            </ActivityAction>
-          </uix:NApplicationCard.Body>
-          <uix:NApplicationCard.TargetApp>
-            <uix:TargetApp Area="-11, -11, 1942, 1150" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="630810b78acc37d477b8a21c956b31df.jpg" Selector="&lt;html app='chrome.exe' title='Home | Salesforce' /&gt;" Title="Home | Salesforce" Url="https://afl--sftest.sandbox.lightning.force.com/lightning/page/home" />
-          </uix:NApplicationCard.TargetApp>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </uix:NApplicationCard>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Error" Message="[&quot;Exception Occured with message: &quot;+exception.Message+&quot; at: &quot;+exception.Source]" />
+                  <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="388,87" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[exceptionScreenshot]">
+                    <ui:TakeScreenshot.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="bc54510f-6798-4cd6-b6ab-7083fe43727e">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TakeScreenshot.Target>
+                  </ui:TakeScreenshot>
+                  <ui:SaveImage DisplayName="Save Image" FileName="[&quot;\\naa\dfs\SPB\Teams\RPA\Salesforce Testing\Exception Screenshots\CreateNewCPQQuote_&quot;+DateTime.Now.ToString(&quot;ddMMyyyyhhmmss&quot;)+&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="388,133" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[exceptionScreenshot]" />
+                </Sequence>
+              </ActivityAction>
+            </Catch>
+          </TryCatch.Catches>
+        </TryCatch>
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="774,578.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="614,563" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;Actual Output: &quot;+OutputLabel + environment.NewLine + &quot;Expected Output: TEST Account - &quot;+QuoteNumber]" />
-      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[OutputLabel.Equals(&quot;TEST Account - &quot;+QuoteNumber)]" sap:VirtualizedContainerService.HintSize="388,124" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Create New CPQ Quote Testcase execution ended&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;Actual Output: &quot;+OutputLabel + environment.NewLine + &quot;Expected Output: TEST Account - &quot;+QuoteNumber]" />
+      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[OutputLabel.Equals(&quot;TEST Account - &quot;+QuoteNumber)]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Create New CPQ Quote Testcase execution ended&quot;]" />
     </Sequence>
   </Sequence>
 </Activity>
