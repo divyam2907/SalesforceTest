@@ -20,6 +20,8 @@
       "Path": "Testcases/TestCase_AddProductUsingSearchBy.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "exceptionScreenshot&Sequence_25",
+        "rowIndex&Sequence_17",
         "CapturedTableData&Sequence_6",
         "RetryCounter&Sequence_3",
         "ExpectedOutputDbl&Sequence_4",
@@ -39,6 +41,7 @@
       "Path": "Testcases/TestCase_1_CreateNewCPQQuote.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "exceptionScreenshot&TryCatch_1",
         "RetryCounter&Sequence_6",
         "OutputLabel&Sequence_1",
         "QuoteNumber&Sequence_1"
@@ -51,6 +54,8 @@
       "Path": "Testcases/TestCase_AddProductUsingACAFilter.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "rowIndex&Sequence_10",
+        "exceptionScreenshot&Sequence_21",
         "RetryCounter&Sequence_6",
         "ProductName&Sequence_11",
         "ActualOutputDbl&Sequence_4",
@@ -76,6 +81,9 @@
       "Path": "Testcases/TestCase_AddProductUsingFiberOpticFilter.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "exceptionScreenshot&Sequence_32",
+        "exceptionScreenshot&Sequence_15",
+        "rowIndex&Sequence_10",
         "CapturedTableData&Sequence_5",
         "RetryCounter&Sequence_5",
         "ProductName&Sequence_6",
@@ -105,6 +113,8 @@
       "Path": "Testcases/TestCase_AddProductUsingManualInput.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "rowIndex&Sequence_12",
+        "exceptionScreenshot&Sequence_20",
         "ActualOutputDbl&Sequence_4",
         "ExpectedOutputDbl&Sequence_4",
         "ActualOutput&Sequence_1",
