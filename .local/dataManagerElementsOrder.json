@@ -142,6 +142,7 @@
       "Path": "Testcases/TestCase_CloseSFTest.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "IsProcessSuccess&Sequence_1",
         "CapturedTableData&Sequence_5",
         "RetryCounter&Sequence_5"
       ],
