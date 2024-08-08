@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase_CreateNewCPQQuote" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1202,12022" sap2010:WorkflowViewState.IdRef="TestCase_CreateNewCPQQuote_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase_CreateNewCPQQuote" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="864.6666666666666,12082" sap2010:WorkflowViewState.IdRef="TestCase_CreateNewCPQQuote_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -115,7 +115,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="TestCase_CreateNewCPQQuote" sap:VirtualizedContainerService.HintSize="874,11957" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestCase_CreateNewCPQQuote" sap:VirtualizedContainerService.HintSize="874.6666666666666,11977.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="QuoteNumber" />
       <Variable x:TypeArguments="x:String" Name="OutputLabel" />
@@ -125,27 +125,27 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="812,252" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="812.6666666666666,254" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Create New CPQ Quote Testcase execution started&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Create New CPQ Quote Testcase execution started&quot;]" />
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="812,10177" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="812.6666666666666,10180.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="750,10066" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence sap:VirtualizedContainerService.HintSize="750.6666666666666,10070" sap2010:WorkflowViewState.IdRef="Sequence_5">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="688,9955" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="688.6666666666666,9959.333333333334" sap2010:WorkflowViewState.IdRef="TryCatch_1">
           <TryCatch.Variables>
             <Variable x:TypeArguments="ui:Image" Name="exceptionScreenshot" />
           </TryCatch.Variables>
@@ -156,13 +156,13 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <TryCatch.Try>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Home | Salesforce" sap:VirtualizedContainerService.HintSize="650,8744" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Home | Salesforce" sap:VirtualizedContainerService.HintSize="650,8732" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,8487" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,8513.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Int32" Name="RetryCounter" />
                     </Sequence.Variables>
@@ -171,15 +171,15 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence sap:VirtualizedContainerService.HintSize="554,1814" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <Sequence sap:VirtualizedContainerService.HintSize="554,1820.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Launched Oracle Application...&quot;]" />
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search...'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="TEST Account" Version="V3">
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,146" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Launched Oracle Application...&quot;]" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search...'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,220" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="TEST Account" Version="V3">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/page/home" CVScreenId="85f66b8f-bc2b-43e1-a912-ddb66462bb62" CvTextArea="685, 276, 73, 18" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="631, 261, 600, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='slds-button slds-button_neutral search-button slds-truncate' aaname='Search...' check:innerText='Search...' /&gt;" Guid="c9ffdf03-43bf-4982-9849-b7cb1deb2ede" InformativeScreenshot="9ca553fee38b5703748804b878296741.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
                         </uix:NTypeInto.Target>
@@ -418,10 +418,10 @@
                         <InArgument x:TypeArguments="x:Int32">1</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="554,3649" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+                    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="554,3668" sap2010:WorkflowViewState.IdRef="RetryScope_1">
                       <ui:RetryScope.ActivityBody>
                         <ActivityAction>
-                          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,3472" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,3490.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_10">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -493,7 +493,7 @@
                                 </Sequence>
                               </If.Else>
                             </If>
-                            <Assign sap:VirtualizedContainerService.HintSize="450,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+                            <Assign sap:VirtualizedContainerService.HintSize="450,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_2">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
                               </Assign.To>
@@ -501,13 +501,13 @@
                                 <InArgument x:TypeArguments="x:Int32">[RetryCounter+1]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <Sequence sap:VirtualizedContainerService.HintSize="450,2240" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                            <Sequence sap:VirtualizedContainerService.HintSize="450,2256.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_9">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Quoted Contact*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,254" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Melissa Rosa" Version="V3">
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Quoted Contact*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,257.3333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="DebuggerApi" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Text="Melissa Rosa" Version="V3">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="91e19f21-f43f-4de1-a01b-9eb57c40088e" CvElementArea="386, 561, 550, 61" CvType="InputBox" DesignTimeRectangle="390, 565, 508, 54" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/forceChatterPublisherQuickCreate/forceQuickActionLayout:quickActionLayout/auraIf/forceRecordLayoutBroker:recordLayout/rlSBQQ__Quote__cEDITMDP0123m000001TRfvAAGOpportunity_New_CPQ_Quote0060300000CcnvvAAB_1062697841576f753847584d704f4f6150494c345a42413d3dC/forcePageBlockItemEdit:pageBlockItem/forceSearchInputLookupDesktop:Quoted_Contact__c/auraIf/uiAutocomplete:autocomplete/auraIf/uiInputTextForAutocomplete:input/auraHtml:txt' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/runtime_platform_actionsQuickActionWrapper/forceChatterPublisherQuickCreate/forceQuickActionLayout:quickActionLayout/auraIf/forceRecordLayoutBroker:recordLayout/rlSBQQ__Quote__cEDITMDP0123m000001TRfvAAGOpportunity_New_CPQ_Quote0060300000CcnvvAAB_1062697841576f753847584d704f4f6150494c345a42413d3dC/forcePageBlockItemEdit:pageBlockItem/forceSearchInputLookupDesktop:Quoted_Contact__c/auraIf/uiAutocomplete:autocomplete/auraIf/uiInputTextForAutocomplete:input/auraHtml:txt' tag='INPUT' type='text' class=' default input uiInput uiInputTextForAutocomplete uiInput--default uiInput--input uiInput uiAutocomplete uiInput--default uiInput--lookup' placeholder='Search Contacts...' aaname='Quoted Contact*' /&gt;" Guid="73ad3ff4-26a8-4c4a-b616-e154913c3c77" InformativeScreenshot="9b1172c28510cdffa3d6886fbc7aa279.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                     <uix:TargetAnchorable.Anchors>
@@ -528,7 +528,7 @@
                                   </uix:VerifyExecutionTypeIntoOptions>
                                 </uix:NTypeInto.VerifyOptions>
                               </uix:NTypeInto>
-                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Melissa RosaAFL'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Melissa RosaAFL'" sap:VirtualizedContainerService.HintSize="388,196" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
                                 <uix:NClick.Target>
                                   <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" DesignTimeRectangle="391, 687, 541, 65" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Melissa RosaAFL Telecommunications LLC' aria-role='option' sfl-path='uiAutocompleteOption/auraHtml:option' tag='A' innertext='Melissa RosaAFL Telecommunications LLC' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Melissa RosaAFL Telecommunications LLC' aria-role='option' sfl-path='uiAutocompleteOption/auraHtml:option' tag='A' innertext='Melissa RosaAFL Telecommunications LLC' type='' class='' check:text='Melissa RosaAFL Telecommunications LLC' /&gt;" Guid="3f6578c3-5acd-49a7-ba71-821f94a9ca55" InformativeScreenshot="1a1e5c89fcd3c7698e2827a1cad2511b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
                                 </uix:NClick.Target>
@@ -543,8 +543,8 @@
                                   </uix:VerifyExecutionOptions>
                                 </uix:NClick.VerifyOptions>
                               </uix:NClick>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[&quot;Input Quoted Contact - Melissa Rosa&quot;]" />
-                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,146" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[&quot;Input Quoted Contact - Melissa Rosa&quot;]" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="388,196" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
                                 <uix:NClick.Target>
                                   <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_CPQ_Quote?objectApiName=SBQQ__Quote__c&amp;context=RECORD_DETAIL&amp;recordId=0060300000CcnvvAAB&amp;backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0060300000CcnvvAAB%2Fview" CVScreenId="10c966c0-09a3-478b-8601-56b4acedbdfa" CvElementArea="1483, 952, 95, 51" CvTextArea="1509, 967, 43, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1487, 954, 90, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraHtml:button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='forceChatterPublisherQuickAction/uiButton:submitButton/auraHtml:button' tag='BUTTON' type='button' class='slds-button slds-button_brand cuf-publisherShareButton undefined uiButton' aaname='Save' check:innerText='Save' /&gt;" Guid="a8220b0d-5204-44ef-aff1-85c64710bdb4" InformativeScreenshot="5066d12420d1d62fa41ca82c2bec0ccb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                     <uix:TargetAnchorable.Anchors>
@@ -596,7 +596,7 @@
                                 </uix:NGetText.Target>
                               </uix:NGetText>
                               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Quote Number: &quot;+QuoteNumber]" />
-                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Custom QLE'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Custom QLE'" sap:VirtualizedContainerService.HintSize="388,196" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" Version="V3">
                                 <uix:NClick.Target>
                                   <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/lightning/r/SBQQ__Quote__c/a7H030000000VfrEAE/view" CVScreenId="61141159-cc9b-4617-af54-ac39c5c65c1e" CvElementArea="878, 810, 158, 51" CvTextArea="903, 826, 108, 19" CvTextArgument="Custom QLE" CvType="Button" DesignTimeRectangle="881, 813, 155, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl idx='3' sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Open UI' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl aaname='Open UI' tag='BUTTON' type='button' class='slds-button slds-button_success' check:innerText='Custom QLE' /&gt;" Guid="7fc0386c-64c1-427c-ae30-a5a2755f8416" InformativeScreenshot="4dbec02b79d3cf0e9b8a2e96fcb74ab8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Q-43924 | CPQ Quote | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                 </uix:NClick.Target>
@@ -611,7 +611,7 @@
                                   </uix:VerifyExecutionOptions>
                                 </uix:NClick.VerifyOptions>
                               </uix:NClick>
-                              <uix:NGetText DisplayName="Get Text 'TEST Account - Q-43924'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" TextString="[OutputLabel]" Version="V3">
+                              <uix:NGetText DisplayName="Get Text 'TEST Account - Q-43924'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="addc65f5-e0ea-4357-8c1a-7a73e3516511" TextString="[OutputLabel]" Version="V3">
                                 <uix:NGetText.Target>
                                   <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZnJFQUUiLCJjb21lRnJvbVBTIjoiZmFsc2UifSwic3RhdGUiOnt9fQ%3D%3D" CVScreenId="12aaf5f5-7689-4dc1-a321-48e7fe8f9f1c" CvElementArea="141, 490, 327, 80" CvTextArea="166, 520, 276, 24" CvTextArgument="TEST Account - Q-43924" CvType="Button" DesignTimeRectangle="169, 516, 274, 30" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl aaname='TEST Account - Q-43924' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='SPAN' type='' class='slds-page-header__title slds-truncate' /&gt;" Guid="ec7d65bb-6651-4a76-b81f-902a5c47df79" ImageBase64="" InformativeScreenshot="880c02da8a4e91308d1c4043c9594d5d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                                 </uix:NGetText.Target>
@@ -645,10 +645,10 @@
             </uix:NApplicationCard>
           </TryCatch.Try>
           <TryCatch.Catches>
-            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="654,900" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="654.6666666666666,908.6666666666666" sap2010:WorkflowViewState.IdRef="Catch`1_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -656,14 +656,14 @@
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                 </ActivityAction.Argument>
-                <Sequence sap:VirtualizedContainerService.HintSize="450,831" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <Sequence sap:VirtualizedContainerService.HintSize="450,838.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_13">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Error" Message="[&quot;Exception Occured with message: &quot;+exception.Message+&quot; at: &quot;+exception.Source]" />
-                  <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="388,87" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[exceptionScreenshot]">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Error" Message="[&quot;Exception Occured with message: &quot;+exception.Message+&quot; at: &quot;+exception.Source]" />
+                  <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="388,87.33333333333333" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[exceptionScreenshot]">
                     <ui:TakeScreenshot.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="bc54510f-6798-4cd6-b6ab-7083fe43727e">
                         <ui:Target.TimeoutMS>
@@ -675,8 +675,8 @@
                       </ui:Target>
                     </ui:TakeScreenshot.Target>
                   </ui:TakeScreenshot>
-                  <ui:SaveImage DisplayName="Save Image" FileName="[&quot;\\naa\dfs\SPB\Teams\RPA\Salesforce Testing\Exception Screenshots\CreateNewCPQQuote_&quot;+DateTime.Now.ToString(&quot;ddMMyyyyhhmmss&quot;)+&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="388,133" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[exceptionScreenshot]" />
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateAuditReport - Invoke Workflow File (GenerateAuditReport.xaml)" sap:VirtualizedContainerService.HintSize="388,172" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="GenerateAuditReport.xaml">
+                  <ui:SaveImage DisplayName="Save Image" FileName="[&quot;\\naa\dfs\SPB\Teams\RPA\Salesforce Testing\Exception Screenshots\CreateNewCPQQuote_&quot;+DateTime.Now.ToString(&quot;ddMMyyyyhhmmss&quot;)+&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="388,136" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[exceptionScreenshot]" />
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateAuditReport - Invoke Workflow File (GenerateAuditReport.xaml)" sap:VirtualizedContainerService.HintSize="388,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="GenerateAuditReport.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_ProductName">Create New CPQ Quote</InArgument>
                       <InArgument x:TypeArguments="x:String" x:Key="in_ExpectedResult">
@@ -692,7 +692,7 @@
                       <InArgument x:TypeArguments="x:String" x:Key="in_Testcase">TestCase_1_CreateNewCPQQuote</InArgument>
                     </ui:InvokeWorkflowFile.Arguments>
                   </ui:InvokeWorkflowFile>
-                  <Rethrow sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
+                  <Rethrow sap:VirtualizedContainerService.HintSize="388,25.333333333333332" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
                 </Sequence>
               </ActivityAction>
             </Catch>
@@ -700,7 +700,7 @@
         </TryCatch>
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="812,1337" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="812.6666666666666,1352" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="Status" />
         <Variable x:TypeArguments="x:Boolean" Name="blnStatus" />
@@ -710,17 +710,17 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510,141" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;Actual Output: &quot;+OutputLabel + environment.NewLine + &quot;Expected Output: TEST Account - &quot;+QuoteNumber]" />
-      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[OutputLabel.Equals(&quot;TEST Account - &quot;+QuoteNumber)]" sap:VirtualizedContainerService.HintSize="510,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" Result="[blnStatus]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-      <If Condition="[blnStatus]" sap:VirtualizedContainerService.HintSize="510,522" sap2010:WorkflowViewState.IdRef="If_2">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510,143.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;Actual Output: &quot;+OutputLabel + environment.NewLine + &quot;Expected Output: TEST Account - &quot;+QuoteNumber]" />
+      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[OutputLabel.Equals(&quot;TEST Account - &quot;+QuoteNumber)]" sap:VirtualizedContainerService.HintSize="510,91.33333333333333" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" Result="[blnStatus]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+      <If Condition="[blnStatus]" sap:VirtualizedContainerService.HintSize="510,527.3333333333334" sap2010:WorkflowViewState.IdRef="If_2">
         <If.Then>
-          <Sequence sap:VirtualizedContainerService.HintSize="476,170" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence sap:VirtualizedContainerService.HintSize="476,172" sap2010:WorkflowViewState.IdRef="Sequence_14">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_3">
+            <Assign sap:VirtualizedContainerService.HintSize="434,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_3">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[Status]</OutArgument>
               </Assign.To>
@@ -731,13 +731,13 @@
           </Sequence>
         </If.Then>
         <If.Else>
-          <Sequence sap:VirtualizedContainerService.HintSize="476,170" sap2010:WorkflowViewState.IdRef="Sequence_15">
+          <Sequence sap:VirtualizedContainerService.HintSize="476,172" sap2010:WorkflowViewState.IdRef="Sequence_15">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_4">
+            <Assign sap:VirtualizedContainerService.HintSize="434,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_4">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[Status]</OutArgument>
               </Assign.To>
@@ -748,7 +748,7 @@
           </Sequence>
         </If.Else>
       </If>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateAuditReport - Invoke Workflow File (GenerateAuditReport.xaml)" sap:VirtualizedContainerService.HintSize="510,172" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="GenerateAuditReport.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GenerateAuditReport - Invoke Workflow File (GenerateAuditReport.xaml)" sap:VirtualizedContainerService.HintSize="510,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="GenerateAuditReport.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="in_ProductName">Create New CPQ Quote</InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="in_ExpectedResult">["TEST Account - "+QuoteNumber]</InArgument>
@@ -764,7 +764,7 @@
           <InArgument x:TypeArguments="x:String" x:Key="in_Testcase">TestCase_1_CreateNewCPQQuote</InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510,141" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Create New CPQ Quote Testcase execution ended&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510,143.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Create New CPQ Quote Testcase execution ended&quot;]" />
     </Sequence>
   </Sequence>
 </Activity>

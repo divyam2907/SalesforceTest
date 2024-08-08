@@ -20,12 +20,14 @@
       "Path": "Testcases/TestCase_AddProductUsingSearchBy.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "blnStatus&Sequence_4",
+        "ActualOutputDbl&Sequence_4",
+        "ExpectedOutputDbl&Sequence_4",
+        "Status&Sequence_4",
         "exceptionScreenshot&Sequence_25",
         "rowIndex&Sequence_17",
         "CapturedTableData&Sequence_6",
         "RetryCounter&Sequence_3",
-        "ExpectedOutputDbl&Sequence_4",
-        "ActualOutputDbl&Sequence_4",
         "ActualOutput&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
@@ -41,6 +43,8 @@
       "Path": "Testcases/TestCase_1_CreateNewCPQQuote.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "blnStatus&Sequence_4",
+        "Status&Sequence_4",
         "exceptionScreenshot&TryCatch_1",
         "RetryCounter&Sequence_6",
         "OutputLabel&Sequence_1",
@@ -54,6 +58,8 @@
       "Path": "Testcases/TestCase_AddProductUsingACAFilter.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "blnStatus&Sequence_4",
+        "Status&Sequence_4",
         "rowIndex&Sequence_10",
         "exceptionScreenshot&Sequence_21",
         "RetryCounter&Sequence_6",
@@ -81,6 +87,8 @@
       "Path": "Testcases/TestCase_AddProductUsingFiberOpticFilter.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "blnStatus&Sequence_4",
+        "Status&Sequence_4",
         "exceptionScreenshot&Sequence_32",
         "exceptionScreenshot&Sequence_15",
         "rowIndex&Sequence_10",
@@ -113,8 +121,10 @@
       "Path": "Testcases/TestCase_AddProductUsingManualInput.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "rowIndex&Sequence_12",
-        "exceptionScreenshot&Sequence_20",
+        "rowIndex&Sequence_28",
+        "exceptionScreenshot&Sequence_26",
+        "blnStatus&Sequence_4",
+        "Status&Sequence_4",
         "ActualOutputDbl&Sequence_4",
         "ExpectedOutputDbl&Sequence_4",
         "ActualOutput&Sequence_1",
@@ -147,6 +157,29 @@
         "RetryCounter&Sequence_5"
       ],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GenerateAuditReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "blnDatedFileExists&Sequence_1",
+        "DateFilePath&Sequence_1",
+        "dt_AuditTable&Sequence_1",
+        "blnAuditFolderExists&Sequence_1",
+        "AuditFolderPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Testcase",
+        "in_Testset",
+        "in_ExceptionMessage",
+        "in_ExceptionType",
+        "in_Status",
+        "in_ActualResult",
+        "in_ExpectedResult",
+        "in_ProductName"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
