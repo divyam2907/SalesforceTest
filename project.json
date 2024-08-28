@@ -8,7 +8,7 @@
     "UiPath.Mail.Activities": "[1.23.1]",
     "UiPath.System.Activities": "[24.10.3]",
     "UiPath.Testing.Activities": "[24.10.0]",
-    "UiPath.UIAutomation.Activities": "[24.10.0]"
+    "UiPath.UIAutomation.Activities": "[24.10.2]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -47,7 +47,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "9a53f969-82db-4d17-96bf-cbde3ed12c07",
-        "dataVariationFilePath": ".variations\\testdata_ProductSelection-ACA.json",
+        "dataVariationFilePath": ".variations\\testdata-new_ProductSelection-ACA_1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TestCase_AddProductUsingACAFilter.xaml"
@@ -62,7 +62,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "1552ac6a-940a-4c88-a695-bea3ee6a9ae9",
-        "dataVariationFilePath": ".variations\\testdata_ProductSelection-FiberOptic.json",
+        "dataVariationFilePath": ".variations\\testdata-new_ProductSelection-FiberOptic_1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TestCase_AddProductUsingFiberOpticFilter.xaml"
@@ -70,7 +70,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "d40e73d4-f7f1-4293-8943-85b682c2ceac",
-        "dataVariationFilePath": ".variations\\testdata_ProductSelection-ManualInput.json",
+        "dataVariationFilePath": ".variations\\testdata-new_ProductSelection-ManualInput_1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TestCase_AddProductUsingManualInput.xaml"
@@ -78,7 +78,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "299340fe-8d5c-47bb-8cc8-b8aa4ecc07f9",
-        "dataVariationFilePath": ".variations\\testdata_SearchBy.json",
+        "dataVariationFilePath": ".variations\\testdata-new_SearchBy.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TestCase_AddProductUsingSearchBy.xaml"

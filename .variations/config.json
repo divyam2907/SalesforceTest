@@ -1,19 +1,19 @@
 {
   "dataVariationFileInfo": [
     {
-      "filePath": ".variations\\testdata_SearchBy.json",
+      "filePath": ".variations\\testdata-new_ProductSelection-ACA_1.json",
       "dataVariationType": "File"
     },
     {
-      "filePath": ".variations\\testdata_ProductSelection-ACA.json",
+      "filePath": ".variations\\testdata-new_ProductSelection-FiberOptic_1.json",
       "dataVariationType": "File"
     },
     {
-      "filePath": ".variations\\testdata_ProductSelection-FiberOptic.json",
+      "filePath": ".variations\\testdata-new_SearchBy.json",
       "dataVariationType": "File"
     },
     {
-      "filePath": ".variations\\testdata_ProductSelection-ManualInput.json",
+      "filePath": ".variations\\testdata-new_ProductSelection-ManualInput_1.json",
       "dataVariationType": "File"
     }
   ]

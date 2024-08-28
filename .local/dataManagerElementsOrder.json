@@ -20,6 +20,8 @@
       "Path": "Testcases/TestCase_AddProductUsingSearchBy.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "BusinessException&Sequence_6",
+        "exceptionScreenshot&Sequence_31",
         "blnStatus&Sequence_4",
         "ActualOutputDbl&Sequence_4",
         "ExpectedOutputDbl&Sequence_4",
@@ -134,14 +136,15 @@
       "ArgumentsSectionElementsOrder": [
         "Product_Name",
         "ExpectedOutput",
+        "Government_Compliance_Manual",
+        "Price",
         "PrimaryUOM",
         "QuotedLeadTime",
-        "Price",
         "Quantity",
         "Description",
         "PartNumber",
-        "ProductLevel2",
         "ProductLevel3",
+        "ProductLevel2",
         "ProductLevel1",
         "SelectProduct"
       ],
