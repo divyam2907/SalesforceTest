@@ -9,10 +9,40 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Main.xaml",
+      "Path": "Testcases/TestCase_1_CreateNewCPQQuote.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "QuoteNumber&Sequence_1",
+        "OutputLabel&Sequence_1",
+        "exceptionScreenshot&TryCatch_1",
+        "RetryCounter&Sequence_6",
+        "Status&Sequence_4",
+        "blnStatus&Sequence_4"
+      ],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GenerateAuditReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "blnAuditFolderExists&Sequence_1",
+        "AuditFolderPath&Sequence_1",
+        "dt_AuditTable&Sequence_1",
+        "DateFilePath&Sequence_1",
+        "blnDatedFileExists&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ProductName",
+        "in_ExpectedResult",
+        "in_ActualResult",
+        "in_Status",
+        "in_ExceptionType",
+        "in_ExceptionMessage",
+        "in_Testset",
+        "in_Testcase"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
@@ -20,68 +50,36 @@
       "Path": "Testcases/TestCase_AddProductUsingSearchBy.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "ActualOutput&Sequence_1",
+        "RetryCounter&Sequence_3",
+        "CapturedTableData&Sequence_6",
         "BusinessException&Sequence_6",
+        "rowIndex&Sequence_17",
+        "exceptionScreenshot&Sequence_25",
         "exceptionScreenshot&Sequence_31",
-        "blnStatus&Sequence_4",
         "ActualOutputDbl&Sequence_4",
         "ExpectedOutputDbl&Sequence_4",
         "Status&Sequence_4",
-        "exceptionScreenshot&Sequence_25",
-        "rowIndex&Sequence_17",
-        "CapturedTableData&Sequence_6",
-        "RetryCounter&Sequence_3",
-        "ActualOutput&Sequence_1"
+        "blnStatus&Sequence_4"
       ],
       "ArgumentsSectionElementsOrder": [
-        "Product_Name",
         "SearchBy",
         "SearchItem",
-        "ExpectedOutput"
+        "ExpectedOutput",
+        "Product_Name"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "Testcases/TestCase_1_CreateNewCPQQuote.xaml",
+      "Path": "Testcases/TestCase_CloseSFTest.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "blnStatus&Sequence_4",
-        "Status&Sequence_4",
-        "exceptionScreenshot&TryCatch_1",
-        "RetryCounter&Sequence_6",
-        "OutputLabel&Sequence_1",
-        "QuoteNumber&Sequence_1"
+        "IsProcessSuccess&Sequence_1",
+        "CapturedTableData&Sequence_5",
+        "RetryCounter&Sequence_5"
       ],
       "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Testcases/TestCase_AddProductUsingACAFilter.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "blnStatus&Sequence_4",
-        "Status&Sequence_4",
-        "rowIndex&Sequence_10",
-        "exceptionScreenshot&Sequence_21",
-        "RetryCounter&Sequence_6",
-        "ProductName&Sequence_11",
-        "ActualOutputDbl&Sequence_4",
-        "ExpectedOutputDbl&Sequence_4",
-        "ActualOutput&Sequence_1",
-        "CapturedTableData&Sequence_6"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "Product_Name",
-        "RegionCode",
-        "ExpectedOutput",
-        "BusSize",
-        "BusAlloy",
-        "BusTemper",
-        "BusThickness",
-        "ProductType",
-        "SelectProduct"
-      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
@@ -89,18 +87,18 @@
       "Path": "Testcases/TestCase_AddProductUsingFiberOpticFilter.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "blnStatus&Sequence_4",
-        "Status&Sequence_4",
-        "exceptionScreenshot&Sequence_32",
-        "exceptionScreenshot&Sequence_15",
-        "rowIndex&Sequence_10",
+        "ActualOutput&Sequence_1",
+        "BusinessException&Sequence_1",
         "CapturedTableData&Sequence_5",
         "RetryCounter&Sequence_5",
         "ProductName&Sequence_6",
-        "BusinessException&Sequence_1",
+        "rowIndex&Sequence_10",
+        "exceptionScreenshot&Sequence_15",
+        "exceptionScreenshot&Sequence_32",
         "ActualOutputDbl&Sequence_4",
         "ExpectedOutputDbl&Sequence_4",
-        "ActualOutput&Sequence_1"
+        "Status&Sequence_4",
+        "blnStatus&Sequence_4"
       ],
       "ArgumentsSectionElementsOrder": [
         "SelectProduct",
@@ -120,68 +118,70 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Testcases/TestCase_AddProductUsingManualInput.xaml",
+      "Path": "Main.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "rowIndex&Sequence_28",
-        "exceptionScreenshot&Sequence_26",
-        "blnStatus&Sequence_4",
-        "Status&Sequence_4",
-        "ActualOutputDbl&Sequence_4",
-        "ExpectedOutputDbl&Sequence_4",
-        "ActualOutput&Sequence_1",
-        "CapturedTableData&Sequence_5",
-        "RetryCounter&Sequence_5"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "Product_Name",
-        "ExpectedOutput",
-        "Government_Compliance_Manual",
-        "Price",
-        "PrimaryUOM",
-        "QuotedLeadTime",
-        "Quantity",
-        "Description",
-        "PartNumber",
-        "ProductLevel3",
-        "ProductLevel2",
-        "ProductLevel1",
-        "SelectProduct"
-      ],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Testcases/TestCase_CloseSFTest.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "IsProcessSuccess&Sequence_1",
-        "CapturedTableData&Sequence_5",
-        "RetryCounter&Sequence_5"
-      ],
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "GenerateAuditReport.xaml",
+      "Path": "Testcases/TestCase_AddProductUsingACAFilter.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "blnDatedFileExists&Sequence_1",
-        "DateFilePath&Sequence_1",
-        "dt_AuditTable&Sequence_1",
-        "blnAuditFolderExists&Sequence_1",
-        "AuditFolderPath&Sequence_1"
+        "ActualOutput&Sequence_1",
+        "CapturedTableData&Sequence_6",
+        "RetryCounter&Sequence_6",
+        "ProductName&Sequence_11",
+        "rowIndex&Sequence_10",
+        "exceptionScreenshot&Sequence_21",
+        "ActualOutputDbl&Sequence_4",
+        "ExpectedOutputDbl&Sequence_4",
+        "Status&Sequence_4",
+        "blnStatus&Sequence_4"
       ],
       "ArgumentsSectionElementsOrder": [
-        "in_Testcase",
-        "in_Testset",
-        "in_ExceptionMessage",
-        "in_ExceptionType",
-        "in_Status",
-        "in_ActualResult",
-        "in_ExpectedResult",
-        "in_ProductName"
+        "SelectProduct",
+        "ProductType",
+        "BusSize",
+        "BusAlloy",
+        "BusTemper",
+        "BusThickness",
+        "Product_Name",
+        "RegionCode",
+        "ExpectedOutput"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Testcases/TestCase_AddProductUsingManualInput.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ActualOutput&Sequence_1",
+        "CapturedTableData&Sequence_5",
+        "RetryCounter&Sequence_5",
+        "rowIndex&Sequence_28",
+        "exceptionScreenshot&Sequence_26",
+        "ActualOutputDbl&Sequence_4",
+        "ExpectedOutputDbl&Sequence_4",
+        "Status&Sequence_4",
+        "blnStatus&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "SelectProduct",
+        "ProductLevel1",
+        "ProductLevel2",
+        "ProductLevel3",
+        "PartNumber",
+        "Description",
+        "Quantity",
+        "PrimaryUOM",
+        "QuotedLeadTime",
+        "Price",
+        "Government_Compliance_Manual",
+        "Product_Name",
+        "ExpectedOutput"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

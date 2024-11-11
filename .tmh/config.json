@@ -1,9 +1,3 @@
 {
-  "issueKeyTestcaseValues": {},
-  "testManagerBasePath": "https://cloud.uipath.com/aflglobal/test/testmanager_",
-  "defaultProject": {
-    "id": "2a9a8e82-cb10-0000-833a-0b47053306ef",
-    "name": "Salesforce Test",
-    "key": "SFTEST"
-  }
+  "issueKeyTestcaseValues": {}
 }

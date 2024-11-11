@@ -13,7 +13,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1598,16130.666666666666</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1598,15801.333333333334</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCase_ProductSelectionUsingACAFilter_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -137,7 +137,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="TestCase_ProductSelectionUsingACAFilter" sap:VirtualizedContainerService.HintSize="1608,16066" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestCase_ProductSelectionUsingACAFilter" sap:VirtualizedContainerService.HintSize="1608,15736.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ActualOutput" />
     </Sequence.Variables>
@@ -146,33 +146,33 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1546,254" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1546,286" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Add Product Using ACA Filter Testcase execution started&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Add Product Using ACA Filter Testcase execution started&quot;]" />
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1546,14066" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1546,13807.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="1484,13955.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence sap:VirtualizedContainerService.HintSize="1484,13687.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Lightning Experience | Salesforce" sap:VirtualizedContainerService.HintSize="1422,13844.666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V2">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Lightning Experience | Salesforce" sap:VirtualizedContainerService.HintSize="1422,13576.666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V2">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1388,13626" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1388,13335.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="sd:DataTable" Name="CapturedTableData" />
                   <Variable x:TypeArguments="x:Int32" Name="RetryCounter" />
@@ -182,7 +182,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="1326,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_2">
+                <Assign sap:VirtualizedContainerService.HintSize="1326,116.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_2">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
                   </Assign.To>
@@ -190,33 +190,33 @@
                     <InArgument x:TypeArguments="x:Int32">1</InArgument>
                   </Assign.Value>
                 </Assign>
-                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1326,13385.333333333334" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1326,13128" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                   <TryCatch.Try>
-                    <Sequence sap:VirtualizedContainerService.HintSize="1287.3333333333333,12150" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                    <Sequence sap:VirtualizedContainerService.HintSize="1287.3333333333333,11868.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_28">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1225.3333333333333,12034" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5">
+                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1225.3333333333333,11778" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5">
                         <ui:RetryScope.ActivityBody>
                           <ActivityAction>
-                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1183.3333333333333,11856.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1183.3333333333333,11575.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_27">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence sap:VirtualizedContainerService.HintSize="1121.3333333333333,11746" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                              <Sequence sap:VirtualizedContainerService.HintSize="1121.3333333333333,11487.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_15">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1059.3333333333333,146" sap2010:WorkflowViewState.IdRef="LogMessage_21" Message="[&quot;Retry Count: &quot;+RetryCounter.ToString]" />
-                                <Pick sap:VirtualizedContainerService.HintSize="1059.3333333333333,884" sap2010:WorkflowViewState.IdRef="Pick_1">
-                                  <PickBranch sap:VirtualizedContainerService.HintSize="384.6666666666667,836.6666666666666" sap2010:WorkflowViewState.IdRef="PickBranch_1">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1059.3333333333333,178" sap2010:WorkflowViewState.IdRef="LogMessage_21" Message="[&quot;Retry Count: &quot;+RetryCounter.ToString]" />
+                                <Pick sap:VirtualizedContainerService.HintSize="1059.3333333333333,908" sap2010:WorkflowViewState.IdRef="Pick_1">
+                                  <PickBranch sap:VirtualizedContainerService.HintSize="424.6666666666667,828.6666666666666" sap2010:WorkflowViewState.IdRef="PickBranch_1">
                                     <PickBranch.Trigger>
                                       <uix:NCheckState DisplayName="Check App State 'Quote Line'" EnableIfExists="False" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="334,180" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NCheckState.IfExists>
@@ -255,7 +255,7 @@
                                       </uix:NKeyboardShortcuts.VerifyOptions>
                                     </uix:NKeyboardShortcuts>
                                   </PickBranch>
-                                  <PickBranch sap:VirtualizedContainerService.HintSize="500.6666666666667,836.6666666666666" sap2010:WorkflowViewState.IdRef="PickBranch_2">
+                                  <PickBranch sap:VirtualizedContainerService.HintSize="506.6666666666667,828.6666666666666" sap2010:WorkflowViewState.IdRef="PickBranch_2">
                                     <PickBranch.Trigger>
                                       <uix:NCheckState DisplayName="Check App State 'Add ProductsSave'" EnableIfExists="False" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="334,180" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                         <uix:NCheckState.IfExists>
@@ -281,13 +281,13 @@
                                         </uix:NCheckState.Target>
                                       </uix:NCheckState>
                                     </PickBranch.Trigger>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="450,454" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="416,446" sap2010:WorkflowViewState.IdRef="Sequence_35">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="354,139.33333333333334" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
                                         <ui:Click.CursorPosition>
                                           <ui:CursorPosition Position="Center">
                                             <ui:CursorPosition.OffsetX>
@@ -309,7 +309,7 @@
                                           </ui:Target>
                                         </ui:Click.Target>
                                       </ui:Click>
-                                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,196" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(f5)][u(hk)]" Version="V3">
+                                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,218.66666666666666" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(f5)][u(hk)]" Version="V3">
                                         <uix:NKeyboardShortcuts.VerifyOptions>
                                           <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                             <uix:VerifyExecutionOptions.Retry>
@@ -324,8 +324,8 @@
                                     </Sequence>
                                   </PickBranch>
                                 </Pick>
-                                <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="1059.3333333333333,91.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_8" />
-                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1059.3333333333333,53.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                                <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="1059.3333333333333,123.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1059.3333333333333,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                                   <ui:CommentOut.Body>
                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,136" sap2010:WorkflowViewState.IdRef="Sequence_26">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -381,7 +381,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:CommentOut>
-                                <Assign sap:VirtualizedContainerService.HintSize="1059.3333333333333,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                <Assign sap:VirtualizedContainerService.HintSize="1059.3333333333333,116.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_4">
                                   <Assign.To>
                                     <OutArgument x:TypeArguments="x:Int32">[RetryCounter]</OutArgument>
                                   </Assign.To>
@@ -389,14 +389,14 @@
                                     <InArgument x:TypeArguments="x:Int32">[RetryCounter+1]</InArgument>
                                   </Assign.Value>
                                 </Assign>
-                                <Sequence sap:VirtualizedContainerService.HintSize="1059.3333333333333,1386.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                <Sequence sap:VirtualizedContainerService.HintSize="1059.3333333333333,1324" sap2010:WorkflowViewState.IdRef="Sequence_7">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Product Selection'" sap:VirtualizedContainerService.HintSize="388,196" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Product Selection'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                     <uix:NClick.Target>
                                       <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3VzZXJJbnRlcmZhY2UiLCJhdHRyaWJ1dGVzIjp7InF1b3RlSWQiOiJhN0gwMzAwMDAwMDBWZ0JFQVUiLCJjb21lRnJvbVBTIjoidHJ1ZSJ9LCJzdGF0ZSI6e319" CVScreenId="cde0978c-de22-4a9a-b368-7f23584c23bf" CvElementArea="83, 660, 181, 52" CvTextArea="108, 676, 130, 18" CvTextArgument="Product Selection" CvType="Button" DesignTimeRectangle="85, 662, 178, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_userInterface' tag='C-BL_USER-INTERFACE' /&gt;&lt;webctrl tag='BUTTON' type='button' class='slds-button slds-button_outline-brand' aaname='Product Selection' check:innerText='Product Selection' /&gt;" Guid="52a9fafc-e0ab-4ae3-965b-cb8bda82f9b4" InformativeScreenshot="642adb2e0e2f35b3e347bba7d5fae707.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete" />
                                     </uix:NClick.Target>
@@ -411,7 +411,7 @@
                                       </uix:VerifyExecutionOptions>
                                     </uix:NClick.VerifyOptions>
                                   </uix:NClick>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ACA'" sap:VirtualizedContainerService.HintSize="388,196" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ACA'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                     <uix:NClick.Target>
                                       <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="670d7ea6-5ba0-4761-af70-4247c0f9372f" CvElementArea="65, 770, 92, 63" CvTextArea="90, 793, 42, 18" CvTextArgument="ACA" CvType="Button" DesignTimeRectangle="68, 772, 88, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='A' type='' class='slds-tabs_scoped__link' aaname='ACA' check:innerText='ACA' /&gt;" Guid="fedc7491-8e15-4a59-b109-03107dc2f2d6" InformativeScreenshot="5cf7c3cd5c531f780b67367655b7f551.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete" />
                                     </uix:NClick.Target>
@@ -426,8 +426,8 @@
                                       </uix:VerifyExecutionOptions>
                                     </uix:NClick.VerifyOptions>
                                   </uix:NClick>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,146" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Clicked on Product Selection and chose ACA Filter&quot;]" />
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Bus Conductor'" sap:VirtualizedContainerService.HintSize="388,196" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,178" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Clicked on Product Selection and chose ACA Filter&quot;]" />
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Bus Conductor'" sap:VirtualizedContainerService.HintSize="388,228" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73b3d14f-815e-438d-8b4a-78e15f9d0693" Version="V3">
                                     <uix:NClick.Target>
                                       <uix:TargetAnchorable BrowserURL="https://afl--sftest.sandbox.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJjOmJsX3Byb2R1Y3RTZWxlY3Rpb24iLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiYTdIMDMwMDAwMDAwVmdCRUFVIn0sInN0YXRlIjp7fX0%3D" CVScreenId="f5cbaf58-59e9-49be-9337-9ebc3d1146ba" CvElementArea="486, 911, 35, 35" CvType="ArrowButton" DesignTimeRectangle="496, 921, 18, 18" DesignTimeScaleFactor="1.5" ElementType="Icon" FullSelectorArgument="[string.Format(&quot;&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='svg' rowName='*{0}*' /&gt;&quot;, SelectProduct)]" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/cBl_productSelection' tag='C-BL_PRODUCT-SELECTION' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='svg' class='slds-button__icon' aaname='' /&gt;" Guid="5b77b4b4-ab38-4d3c-b8cf-8e3def6d50e9" InformativeScreenshot="00d9aca1c25b34edd4bdfc6273e4e07c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lightning Experience | Salesforce' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
                                         <uix:TargetAnchorable.Anchors>

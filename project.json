@@ -1,12 +1,12 @@
 {
-  "name": "AFLSalesforceTesting",
+  "name": "AFLSalesforceTesting_Tests",
   "projectId": "1999503d-9f41-4cac-8bcb-909ab1296172",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.4]",
     "UiPath.Mail.Activities": "[1.23.1]",
-    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.System.Activities": "[23.10.6]",
     "UiPath.Testing.Activities": "[24.10.0]",
     "UiPath.UIAutomation.Activities": "[24.10.2]"
   },
@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.1.0",
-  "projectVersion": "1.0.8",
+  "projectVersion": "1.0.11",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -35,7 +35,7 @@
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Process",
+    "outputType": "Tests",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -97,8 +97,270 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "92c207e3-c67b-4183-ba24-93c5b9c67b3e",
+      "filePath": "Testcases\\TestCase_AddProductUsingACAFilter.xaml",
+      "uniqueId": "9a53f969-82db-4d17-96bf-cbde3ed12c07",
+      "input": [
+        {
+          "name": "SelectProduct",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ProductType",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "BusSize",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "BusAlloy",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "BusTemper",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "BusThickness",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Product_Name",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "RegionCode",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedOutput",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "Testcases\\TestCase_1_CreateNewCPQQuote.xaml",
+      "uniqueId": "6221efdf-77bd-4e87-8873-1b9a4f5eb924",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Testcases\\TestCase_AddProductUsingFiberOpticFilter.xaml",
+      "uniqueId": "1552ac6a-940a-4c88-a695-bea3ee6a9ae9",
+      "input": [
+        {
+          "name": "SelectProduct",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ProductType",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "FiberCount",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "FiberType",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "JacketConfig",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "JacketPrint",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "MaxSpanAtLight",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "MaxSpanAtMedium",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "MaxSpanAtHeavy",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "inFeet",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Product_Name",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedOutput",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "Testcases\\TestCase_AddProductUsingManualInput.xaml",
+      "uniqueId": "d40e73d4-f7f1-4293-8943-85b682c2ceac",
+      "input": [
+        {
+          "name": "SelectProduct",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ProductLevel1",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ProductLevel2",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ProductLevel3",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "PartNumber",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Description",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Quantity",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "PrimaryUOM",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "QuotedLeadTime",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Price",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Government_Compliance_Manual",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Product_Name",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedOutput",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "Testcases\\TestCase_AddProductUsingSearchBy.xaml",
+      "uniqueId": "299340fe-8d5c-47bb-8cc8-b8aa4ecc07f9",
+      "input": [
+        {
+          "name": "SearchBy",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "SearchItem",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedOutput",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Product_Name",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "Testcases\\TestCase_CloseSFTest.xaml",
+      "uniqueId": "ef1c0ec1-8754-4813-a538-ecc2a123ee2b",
       "input": [],
       "output": []
     }
@@ -106,5 +368,6 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Windows",
+  "coverageMergeWorkflowPath": "CoverageMergeHelperWorkflow.xaml"
 }
